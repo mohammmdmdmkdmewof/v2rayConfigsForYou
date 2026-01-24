@@ -65,7 +65,7 @@ def format_configs(configs, channels_scanned):
     headers = [
         "Mohammad hossein Configs | @mohammadaz2",
         f"📅اخرین اپدیت:{channels_fa} {weekday_fa} ساعت {hour_min_fa} .",
-        f"📊 تعداد کانال های اسکن شده: {channels_fa}",
+        f"📊جمع اوری شده از {channels_fa} کانال",
         "برای بروزرسانی : سه نقطه گزینه اخر",
     ]
 
