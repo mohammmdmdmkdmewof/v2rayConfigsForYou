@@ -22,31 +22,43 @@ PATTERNS = [
 
 
 # --- Format configs ---
+import pytz
+
 def format_configs(configs, channels_scanned):
     if not configs:
         return []
 
-    now = datetime.now()
-    jalali_now = jdatetime.datetime.fromgregorian(datetime=now)
+    # --- Tehran time ---
+    tehran_tz = pytz.timezone("Asia/Tehran")
+    now_utc = datetime.utcnow()
+    now_tehran = now_utc.astimezone(tehran_tz)
 
-    # Persian digits map
+    jalali_now = jdatetime.datetime.fromgregorian(datetime=now_tehran)
+
     persian_digits = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
 
-    # Persian weekday
-    weekday_fa = jalali_now.strftime("%A")  # e.g., "سه‌شنبه"
+    # Persian weekday mapping
+    weekday_map = {
+        "Saturday": "شنبه",
+        "Sunday": "یک‌شنبه",
+        "Monday": "دوشنبه",
+        "Tuesday": "سه‌شنبه",
+        "Wednesday": "چهارشنبه",
+        "Thursday": "پنج‌شنبه",
+        "Friday": "جمعه"
+    }
+    weekday_en = now_tehran.strftime("%A")
+    weekday_fa = weekday_map.get(weekday_en, weekday_en)
 
-    # Current hour:minute
-    hour_min = now.strftime("%H:%M")
+    # Hour:Minute in Tehran
+    hour_min_fa = now_tehran.strftime("%H:%M").translate(persian_digits)
 
-    # Persian hour
-    hour_min_fa = hour_min.translate(persian_digits)
-
-    # Persian channels scanned
+    # Channels scanned in Persian
     channels_fa = str(channels_scanned).translate(persian_digits)
 
     formatted = []
 
-    # Use first real config URL as carrier for headers
+    # Use first real config URL as header carrier
     header_base = configs[0].split("#", 1)[0]
 
     # ---- HEADERS ----
@@ -70,6 +82,7 @@ def format_configs(configs, channels_scanned):
         formatted.append(f"{url_part}#{fragment}")
 
     return formatted
+
 
 
 # --- Deduplication ---
