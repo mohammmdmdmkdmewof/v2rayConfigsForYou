@@ -9,10 +9,6 @@ from datetime import datetime, timedelta
 from urllib.parse import unquote, urlparse, parse_qs
 from pyrogram import Client as PyrogramClient, enums
 
-# --- Configuration Variables ---
-TELEGRAM_API_ID = 0  # Replace with your Telegram API ID
-TELEGRAM_API_HASH = "a"  # Replace with your Telegram API Hash
-TELEGRAM_SESSION_NAME = "my_accountb"  # Name for your Pyrogram session file
 OUTPUT_FILE = "configs.txt"
 FORMAT_STRING = "Config | {number} / {total}"  # Format for the config name
 
@@ -145,7 +141,7 @@ async def scan_channels(client):
 
 async def telegram_scan():
     """Orchestrates the Telegram scanning process."""
-    async with PyrogramClient(TELEGRAM_SESSION_NAME, TELEGRAM_API_ID, TELEGRAM_API_HASH) as client:
+    async with PyrogramClient("my_accountb") as client:
         print("Starting Telegram scan...")
         configs = await scan_channels(client)
         if not configs:
