@@ -23,42 +23,50 @@ PATTERNS = [
 
 # --- Format configs ---
 def format_configs(configs, channels_scanned):
+    if not configs:
+        return []
+
     now = datetime.now()
     jalali_now = jdatetime.datetime.fromgregorian(datetime=now)
 
-    # Persian date
-    persian_date = jalali_now.strftime("%Y/%m/%d")
+    # Persian digits map
     persian_digits = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
-    persian_date = persian_date.translate(persian_digits)
 
-    channels_scanned_fa = str(channels_scanned).translate(persian_digits)
+    # Persian weekday
+    weekday_fa = jalali_now.strftime("%A")  # e.g., "سه‌شنبه"
 
-    total = len(configs)
+    # Current hour:minute
+    hour_min = now.strftime("%H:%M")
+
+    # Persian hour
+    hour_min_fa = hour_min.translate(persian_digits)
+
+    # Persian channels scanned
+    channels_fa = str(channels_scanned).translate(persian_digits)
+
     formatted = []
 
-    for i, config in enumerate(configs):
-        if not config.strip():
-            continue
+    # Use first real config URL as carrier for headers
+    header_base = configs[0].split("#", 1)[0]
 
-        url_part = config.split('#', 1)[0]
+    # ---- HEADERS ----
+    headers = [
+        "Mohammad hossein Configs | @mohammadaz2",
+        f"{channels_fa} {weekday_fa} ساعت {hour_min_fa}",
+        f"📊 تعداد کانال های اسکن شده: {channels_fa}",
+        "برای بروزرسانی : سه نقطه گزینه اخر",
+    ]
 
-        if i == 0:
-            fragment = "Mohammad hossein Configs | @mohammadaz2"
+    for h in headers:
+        formatted.append(f"{header_base}#{h}")
 
-        elif i == 1:
-            fragment = f"📅 اخرین آپدیت: {persian_date}"
-
-        elif i == 2:
-            fragment = f"📊 تعداد کانال های اسکن شده: {channels_scanned_fa}"
-
-        elif i == 3:
-            fragment = "برای بروزرسانی : سه نقطه گزینه اخر"
-
-        else:
-            fragment = FORMAT_STRING \
-                .replace("{number}", str(i + 1)) \
-                .replace("{total}", str(total))
-
+    # ---- REAL CONFIGS ----
+    total = len(configs)
+    for i, config in enumerate(configs, start=1):
+        url_part = config.split("#", 1)[0]
+        fragment = FORMAT_STRING \
+            .replace("{number}", str(i)) \
+            .replace("{total}", str(total))
         formatted.append(f"{url_part}#{fragment}")
 
     return formatted
