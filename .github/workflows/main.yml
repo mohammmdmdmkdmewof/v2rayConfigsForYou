@@ -38,8 +38,8 @@ jobs:
           openssl enc -aes-256-cbc -d \
           -salt \
           -md md5 \
-          -in telegram.session.aes256 \
-          -out telegram.session \
+          -in my_accountb.session.aes256 \
+          -out my_accountb.session \
           -pass env:SESSION_KEY
 
 
