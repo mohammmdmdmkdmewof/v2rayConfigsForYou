@@ -36,9 +36,12 @@ jobs:
           umask 077
 
           openssl enc -aes-256-cbc -d \
-            -in my_accountb.session.aes256 \
-            -out my_accountb.session \
-            -pass env:SESSION_KEY
+          -salt \
+          -md md5 \
+          -in telegram.session.aes256 \
+          -out telegram.session \
+          -pass env:SESSION_KEY
+
 
       - name: Run finder
         run: |
