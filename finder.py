@@ -12,7 +12,7 @@ from pyrogram import Client as PyrogramClient, enums
 # --- Configuration Variables ---
 TELEGRAM_API_ID = 0  # Replace with your Telegram API ID
 TELEGRAM_API_HASH = "a"  # Replace with your Telegram API Hash
-TELEGRAM_SESSION_NAME = "my_accountb"  # Name for your Pyrogram session file
+TELEGRAM_SESSION_NAME = "telegram"  # Name for your Pyrogram session file
 OUTPUT_FILE = "configs.txt"
 FORMAT_STRING = "Config | {number} / {total}"  # Format for the config name
 
