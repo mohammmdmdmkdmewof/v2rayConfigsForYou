@@ -64,8 +64,8 @@ def format_configs(configs, channels_scanned):
     # ---- HEADERS ----
     headers = [
         "Mohammad hossein Configs | @mohammadaz2",
-        f"📅اخرین اپدیت:{channels_fa} {weekday_fa} ساعت {hour_min_fa} .",
-        f"📊جمع اوری شده از {channels_fa} کانال",
+        f"۱ {weekday_fa} ساعت {hour_min_fa}",  # sequence number 1
+        f"📊 جمع آوری شده از {channels_fa} کانال",
         "برای بروزرسانی : سه نقطه گزینه اخر",
     ]
 
@@ -82,6 +82,7 @@ def format_configs(configs, channels_scanned):
         formatted.append(f"{url_part}#{fragment}")
 
     return formatted
+
 
 
 
