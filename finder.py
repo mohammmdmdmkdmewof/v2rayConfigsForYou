@@ -62,12 +62,14 @@ def format_configs(configs, channels_scanned):
     header_base = configs[0].split("#", 1)[0]
 
     # ---- HEADERS ----
+    # ---- HEADERS ----
     headers = [
         "Mohammad hossein Configs | @mohammadaz2",
-        f"۱ {weekday_fa} ساعت {hour_min_fa}",  # sequence number 1
+        f"📅 آخرین آپدیت: {weekday_fa} ساعت {hour_min_fa}",
         f"📊 جمع آوری شده از {channels_fa} کانال",
         "برای بروزرسانی : سه نقطه گزینه اخر",
     ]
+
 
     for h in headers:
         formatted.append(f"{header_base}#{h}")
