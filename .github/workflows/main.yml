@@ -37,7 +37,7 @@ jobs:
 
           openssl enc -aes-256-cbc -d \
             -in my_accountb.session.aes256 \
-            -out telegram.session \
+            -out my_accountb.session \
             -pass env:SESSION_KEY
 
       - name: Run finder
@@ -61,6 +61,6 @@ jobs:
       - name: cleanup
         if: always()
         run: |
-          if [ -f telegram.session ]; then
-            shred -u telegram.session
+          if [ -f my_accountb.session ]; then
+            shred -u my_accountb.session
           fi
