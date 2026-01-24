@@ -38,7 +38,7 @@ jobs:
           openssl enc -aes-256-cbc -d \
             -in my_accountb.session.aes256 \
             -out telegram.session \
-            -pass env:TELEGRAM_SESSION_KEY
+            -pass env:SESSION_KEY
 
       - name: Run finder
         run: |
