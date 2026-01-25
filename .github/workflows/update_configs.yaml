@@ -1,0 +1,70 @@
+name: Update Configs From Telegram
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */1 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  run-finder:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install --no-cache-dir pyrogram tgcrypto requests jdatetime pytz
+
+
+      - name: Decrypt Telegram session securely
+        env:
+          SESSION_KEY: ${{ secrets.TELEGRAM_SESSION_KEY }}
+        run: |
+          set -e
+          umask 077
+
+          openssl enc -aes-256-cbc -d \
+          -salt \
+          -md md5 \
+          -in my_accountb.session.aes256 \
+          -out my_accountb.session \
+          -pass env:SESSION_KEY
+
+
+      - name: Run finder
+        run: |
+          python finder.py
+
+      - name: Commit updated configs.txt
+        run: |
+          if git diff --quiet configs.txt; then
+            echo "No changes to configs.txt"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add configs.txt
+          git commit -m "chore: update configs.txt [auto]"
+          git push origin main
+
+      - name: cleanup
+        if: always()
+        run: |
+          if [ -f my_accountb.session ]; then
+            shred -u my_accountb.session
+          fi
