@@ -6,11 +6,13 @@ from datetime import datetime, timedelta
 from urllib.parse import unquote, urlparse, parse_qs
 
 import jdatetime
+import pytz
 from pyrogram import Client as PyrogramClient, enums
 
 OUTPUT_FILE = "configs.txt"
 FORMAT_STRING = "Config | {number} / {total}"
 
+DEFAULT_HEADER_CONFIG = "vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#header"
 
 # --- Protocol Patterns ---
 PATTERNS = [
@@ -22,8 +24,6 @@ PATTERNS = [
 
 
 # --- Format configs ---
-import pytz
-
 def format_configs(configs, channels_scanned):
     if not configs:
         return []
@@ -58,10 +58,9 @@ def format_configs(configs, channels_scanned):
 
     formatted = []
 
-    # Use first real config URL as header carrier
-    header_base = configs[0].split("#", 1)[0]
+    
+    header_base = DEFAULT_HEADER_CONFIG.split("#", 1)[0]
 
-    # ---- HEADERS ----
     # ---- HEADERS ----
     headers = [
         "Mohammad hossein Configs | @mohammadaz2",
@@ -69,7 +68,6 @@ def format_configs(configs, channels_scanned):
         f"📊 جمع آوری شده از {channels_fa} کانال",
         "🔄برای اپدیت کانفیگ ها سه نقطه را بفشارید و گزینه آخر را انتخاب کنید.",
     ]
-
 
     for h in headers:
         formatted.append(f"{header_base}#{h}")
@@ -84,8 +82,6 @@ def format_configs(configs, channels_scanned):
         formatted.append(f"{url_part}#{fragment}")
 
     return formatted
-
-
 
 
 # --- Deduplication ---
