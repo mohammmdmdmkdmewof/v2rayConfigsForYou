@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 * * * *"   # every hour
+    - cron: "0 * * * *" 
 
   push:
     branches:
@@ -50,6 +50,11 @@ jobs:
         run: |
           python finder.py
 
+      - name: Pull latest changes before commit
+        run: |
+          git config pull.rebase false
+          git pull origin main
+
       - name: Commit updated configs.txt
         run: |
           if git diff --quiet configs.txt; then
@@ -68,4 +73,3 @@ jobs:
           if [ -f my_accountb.session ]; then
             shred -u my_accountb.session
           fi
-# a commit!
