@@ -24,7 +24,7 @@ PATTERNS = [
 ]
 
 # Emojis to exclude
-EXCLUDE_EMOJIS = ["📅", "📊", "📈", "📉", "📆", "🗓️", "📋", "📑"]
+EXCLUDE_EMOJIS = ["📅", "📊"]
 
 # --- Helper function to check if a string contains excluded emojis ---
 def contains_excluded_emoji(text):
@@ -41,14 +41,29 @@ def extract_flag_from_config(config_url):
         if "#" in config_url:
             fragment = config_url.split("#", 1)[1]
             # Find emojis in the fragment (simple emoji detection)
-            # This regex matches most common emojis
+            # This regex matches most common emojis including flags
             emoji_pattern = re.compile(r'[\U0001F600-\U0001F64F\U0001F300-\U0001F5FF\U0001F680-\U0001F6FF\U0001F1E0-\U0001F1FF]')
             emojis = emoji_pattern.findall(fragment)
             if emojis:
-                return emojis[0]  # Return first emoji as flag
+                # Return first emoji as flag
+                return emojis[0]
     except:
         pass
     return "🏴"  # Default flag if none found
+
+# --- Extract name without flag ---
+def extract_name_without_flag(config_url):
+    """Extract config name without the flag emoji"""
+    try:
+        if "#" in config_url:
+            fragment = config_url.split("#", 1)[1]
+            # Remove emojis from the fragment
+            emoji_pattern = re.compile(r'[\U0001F600-\U0001F64F\U0001F300-\U0001F5FF\U0001F680-\U0001F6FF\U0001F1E0-\U0001F1FF]')
+            name = emoji_pattern.sub('', fragment).strip()
+            return name if name else "Emergency Server"
+    except:
+        pass
+    return "Emergency Server"
 
 # --- Download subscription from URL ---
 async def download_subscription(url):
@@ -77,13 +92,13 @@ async def download_subscription(url):
 async def process_mohammadaz2_subscription(client):
     """Check last message from @mohammadaz2 and process if it's a subscription link"""
     emergency_configs = []
-    flag = "🏴"  # Default flag
+    emergency_flags = []
     
     try:
         # Get the last message from @mohammadaz2
         async for message in client.search_messages("@mohammadaz2", limit=1):
             if not message.text:
-                return emergency_configs, flag
+                return emergency_configs, emergency_flags
                 
             text = message.text.strip()
             
@@ -101,33 +116,34 @@ async def process_mohammadaz2_subscription(client):
                 if configs:
                     print(f"Downloaded {len(configs)} configs from subscription")
                     
-                    # Process first config to get flag (if not excluded)
-                    if configs:
-                        first_config = configs[0]
-                        config_name = first_config.split("#", 1)[1] if "#" in first_config else ""
-                        
-                        # Check if first config contains excluded emoji
-                        if not contains_excluded_emoji(config_name):
-                            flag = extract_flag_from_config(first_config)
-                        
-                        # Filter configs that don't contain excluded emojis in their names
-                        for config in configs:
-                            if "#" in config:
-                                config_name = config.split("#", 1)[1]
-                                if not contains_excluded_emoji(config_name):
-                                    emergency_configs.append(config)
-                            else:
-                                emergency_configs.append(config)
+                    # Process configs
+                    for i, config in enumerate(configs):
+                        if "#" in config:
+                            config_name = config.split("#", 1)[1]
+                            
+                            # Check if config contains excluded emoji (skip first config check only)
+                            if i == 0 and contains_excluded_emoji(config_name):
+                                # Skip this config if it's the first one with excluded emoji
+                                continue
+                            
+                            # Extract flag from original config
+                            flag = extract_flag_from_config(config)
+                            emergency_flags.append(flag)
+                            emergency_configs.append(config)
+                        else:
+                            # Add config without fragment
+                            emergency_flags.append("🏴")
+                            emergency_configs.append(config)
                     
                     print(f"Added {len(emergency_configs)} emergency configs (after filtering)")
                 
     except Exception as e:
         print(f"Error processing @mohammadaz2 subscription: {e}")
     
-    return emergency_configs, flag
+    return emergency_configs, emergency_flags
 
 # --- Format configs ---
-def format_configs(configs, channels_scanned, emergency_configs, emergency_flag):
+def format_configs(configs, channels_scanned, emergency_configs, emergency_flags):
     if not configs and not emergency_configs:
         return []
 
@@ -176,17 +192,23 @@ def format_configs(configs, channels_scanned, emergency_configs, emergency_flag)
 
     # ---- EMERGENCY SERVERS ----
     if emergency_configs:
-        emergency_header = f"{emergency_flag} EMERGENCY SERVERS {emergency_flag} | @mohammadaz2"
-        formatted.append(f"{header_base}#{emergency_header}")
-        
-        # Add emergency configs
-        for i, config in enumerate(emergency_configs, start=1):
+ 
+        # Add emergency configs with flag and @mohammadaz2 in name
+        for i, (config, flag) in enumerate(zip(emergency_configs, emergency_flags), start=1):
             url_part = config.split("#", 1)[0]
-            fragment = f"Emergency Server {i}"
+            # Format: EMERGENCY {flag} | @mohammadaz2
+            fragment = f"EMERGENCY {flag} | @mohammadaz2"
             formatted.append(f"{url_part}#{fragment}")
 
-    # ---- REAL CONFIGS ----
+    # ---- REGULAR CONFIGS (with numbers) ----
     if configs:
+        # Add separator if we have both emergency and regular configs
+        if emergency_configs:
+            separator = "───────────────"
+            formatted.append(f"{header_base}#{separator}")
+            regular_header = "📡 REGULAR CONFIGS 📡 | @mohammadaz2"
+            formatted.append(f"{header_base}#{regular_header}")
+        
         total = len(configs)
         for i, config in enumerate(configs, start=1):
             url_part = config.split("#", 1)[0]
@@ -276,7 +298,7 @@ async def telegram_scan():
         print("Starting Telegram scan...")
 
         # Process @mohammadaz2 subscription first
-        emergency_configs, emergency_flag = await process_mohammadaz2_subscription(client)
+        emergency_configs, emergency_flags = await process_mohammadaz2_subscription(client)
         
         # Scan regular channels
         configs, channels_scanned = await scan_channels(client)
@@ -285,15 +307,20 @@ async def telegram_scan():
             print("❌ No configs found")
             return
 
-        formatted = format_configs(configs, channels_scanned, emergency_configs, emergency_flag)
+        formatted = format_configs(configs, channels_scanned, emergency_configs, emergency_flags)
 
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(formatted))
 
         total_configs = len(formatted)
+        emergency_count = len(emergency_configs) if emergency_configs else 0
+        regular_count = len(configs) if configs else 0
+        
         print(f"✅ Saved {total_configs} configs to {OUTPUT_FILE}")
-        if emergency_configs:
-            print(f"📢 Including {len(emergency_configs)} emergency configs from @mohammadaz2")
+        if emergency_count > 0:
+            print(f"🚨 Added {emergency_count} emergency configs from @mohammadaz2")
+        if regular_count > 0:
+            print(f"📡 Added {regular_count} regular configs from channel scan")
 
 if __name__ == "__main__":
     asyncio.run(telegram_scan())
