@@ -24,7 +24,7 @@ PATTERNS = [
 ]
 
 # Emojis to exclude
-EXCLUDE_EMOJIS = ["📅", "📊"]
+EXCLUDE_EMOJIS = ["📅", "📊", "📈", "📉", "📆", "🗓️", "📋", "📑"]
 
 # --- Helper function to check if a string contains excluded emojis ---
 def contains_excluded_emoji(text):
@@ -50,20 +50,6 @@ def extract_flag_from_config(config_url):
     except:
         pass
     return "🏴"  # Default flag if none found
-
-# --- Extract name without flag ---
-def extract_name_without_flag(config_url):
-    """Extract config name without the flag emoji"""
-    try:
-        if "#" in config_url:
-            fragment = config_url.split("#", 1)[1]
-            # Remove emojis from the fragment
-            emoji_pattern = re.compile(r'[\U0001F600-\U0001F64F\U0001F300-\U0001F5FF\U0001F680-\U0001F6FF\U0001F1E0-\U0001F1FF]')
-            name = emoji_pattern.sub('', fragment).strip()
-            return name if name else "Emergency Server"
-    except:
-        pass
-    return "Emergency Server"
 
 # --- Download subscription from URL ---
 async def download_subscription(url):
@@ -190,11 +176,10 @@ def format_configs(configs, channels_scanned, emergency_configs, emergency_flags
     for h in headers:
         formatted.append(f"{header_base}#{h}")
 
-    # ---- EMERGENCY SERVERS ----
+    # ---- EMERGENCY CONFIGS (without header) ----
     if emergency_configs:
- 
-        # Add emergency configs with flag and @mohammadaz2 in name
-        for i, (config, flag) in enumerate(zip(emergency_configs, emergency_flags), start=1):
+        # Add emergency configs directly after headers
+        for config, flag in zip(emergency_configs, emergency_flags):
             url_part = config.split("#", 1)[0]
             # Format: EMERGENCY {flag} | @mohammadaz2
             fragment = f"EMERGENCY {flag} | @mohammadaz2"
@@ -202,12 +187,10 @@ def format_configs(configs, channels_scanned, emergency_configs, emergency_flags
 
     # ---- REGULAR CONFIGS (with numbers) ----
     if configs:
-        # Add separator if we have both emergency and regular configs
+        # Add separator only if we have both emergency and regular configs
         if emergency_configs:
             separator = "───────────────"
             formatted.append(f"{header_base}#{separator}")
-            regular_header = "📡 REGULAR CONFIGS 📡 | @mohammadaz2"
-            formatted.append(f"{header_base}#{regular_header}")
         
         total = len(configs)
         for i, config in enumerate(configs, start=1):
