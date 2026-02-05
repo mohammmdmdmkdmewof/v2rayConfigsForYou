@@ -30,8 +30,14 @@ EXCLUDE_EMOJIS = ["📅", "📊", "📈", "📉", "📆", "🗓️", "📋", "�
 # --- Helper function to check if a string contains excluded emojis ---
 def contains_excluded_emoji(text):
     """Check if text contains any of the excluded emojis"""
+    # First unquote the text to decode URL-encoded characters
+    try:
+        decoded_text = unquote(text)
+    except:
+        decoded_text = text
+    
     # Use emoji library for comprehensive detection
-    emoji_list = emoji.distinct_emoji_list(text)
+    emoji_list = emoji.distinct_emoji_list(decoded_text)
     for emoji_char in emoji_list:
         if emoji_char in EXCLUDE_EMOJIS:
             return True
@@ -42,7 +48,11 @@ def extract_flag_from_config(config_url):
     """Extract flag emoji from config name (fragment part)"""
     try:
         if "#" in config_url:
-            fragment = config_url.split("#", 1)[1]
+            # Get the fragment part after #
+            fragment_encoded = config_url.split("#", 1)[1]
+            # URL decode the fragment
+            fragment = unquote(fragment_encoded)
+            
             # Use emoji library for comprehensive emoji detection
             emojis = emoji.distinct_emoji_list(fragment)
             if emojis:
@@ -143,14 +153,15 @@ async def process_mohammadaz2_subscription(client):
                     # Process configs
                     for i, config in enumerate(configs):
                         if "#" in config:
-                            config_name = config.split("#", 1)[1]
+                            config_name_encoded = config.split("#", 1)[1]
+                            config_name_decoded = unquote(config_name_encoded)
                             
                             # Check if config contains excluded emoji (skip first config check only)
-                            if i == 0 and contains_excluded_emoji(config_name):
+                            if i == 0 and contains_excluded_emoji(config_name_encoded):
                                 # Skip this config if it's the first one with excluded emoji
                                 continue
                             
-                            # Extract flag from original config
+                            # Extract flag from original config (using URL decoding)
                             flag = extract_flag_from_config(config)
                             emergency_flags.append(flag)
                             emergency_configs.append(config)
@@ -214,7 +225,6 @@ def format_configs(configs, channels_scanned, emergency_configs, emergency_flags
         "Mohammad hossein Configs | @mohammadaz2",
         f"📅 آخرین آپدیت: {weekday_fa} ساعت {hour_min_fa}",
         f"📊 جمع آوری شده از {channels_fa} کانال",
-        f"🗓️ تاریخ: {jalali_date_fa}",
         "🔄برای اپدیت کانفیگ ها سه نقطه را بفشارید و گزینه آخر را انتخاب کنید.",
     ]
 
