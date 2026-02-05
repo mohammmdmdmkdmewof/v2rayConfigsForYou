@@ -233,13 +233,6 @@ def format_configs(configs, channels_scanned, emergency_configs, emergency_flags
     # ---- REGULAR CONFIGS (with numbers) ----
     if configs:
         # Add separator only if we have both emergency and regular configs
-        if emergency_configs:
-            separator = "───────────────"
-            formatted.append(f"{header_base}#{separator}")
-        
-        # Add header for regular configs
-        regular_header = "📡 Regular Configs 📡 | @mohammadaz2"
-        formatted.append(f"{header_base}#{regular_header}")
         
         total = len(configs)
         for i, config in enumerate(configs, start=1):
