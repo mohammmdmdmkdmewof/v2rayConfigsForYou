@@ -62,6 +62,23 @@ def extract_flag_from_config(config_url):
         pass
     return "🏴"  # Default flag if none found
 
+# --- Check if config contains "لطفا قبل اتصال" ---
+def contains_lotfan(config_url):
+    """Check if config name contains Persian text 'لطفا قبل اتصال'"""
+    try:
+        if "#" in config_url:
+            # Get the fragment part after #
+            fragment_encoded = config_url.split("#", 1)[1]
+            # URL decode the fragment
+            fragment = unquote(fragment_encoded)
+            
+            # Check if the decoded fragment contains the Persian text
+            if "لطفا قبل اتصال" in fragment:
+                return True
+    except:
+        pass
+    return False
+
 # --- Download subscription from URL ---
 async def download_subscription(url):
     """Download and decode subscription from a URL"""
@@ -154,11 +171,17 @@ async def process_mohammadaz2_subscription(client):
                     for i, config in enumerate(configs):
                         if "#" in config:
                             config_name_encoded = config.split("#", 1)[1]
-                            config_name_decoded = unquote(config_name_encoded)
                             
                             # Check if config contains excluded emoji (skip first config check only)
                             if i == 0 and contains_excluded_emoji(config_name_encoded):
                                 # Skip this config if it's the first one with excluded emoji
+                                print(f"Skipping first config due to excluded emoji")
+                                continue
+                            
+                            # Check if config contains "لطفا قبل اتصال"
+                            if contains_lotfan(config):
+                                # Skip this config if it contains the Persian text
+                                print(f"Skipping config with 'لطفا قبل اتصال'")
                                 continue
                             
                             # Extract flag from original config (using URL decoding)
