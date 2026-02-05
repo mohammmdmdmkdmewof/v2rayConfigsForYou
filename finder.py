@@ -4,6 +4,7 @@ import re
 import json
 from datetime import datetime, timedelta
 from urllib.parse import unquote, urlparse, parse_qs
+import aiohttp
 
 import jdatetime
 import pytz
@@ -22,10 +23,112 @@ PATTERNS = [
     re.compile(r"trojan://[^ \n\"]+")
 ]
 
+# Emojis to exclude
+EXCLUDE_EMOJIS = ["📅", "📊", "📈", "📉", "📆", "🗓️", "📋", "📑"]
+
+# --- Helper function to check if a string contains excluded emojis ---
+def contains_excluded_emoji(text):
+    """Check if text contains any of the excluded emojis"""
+    for emoji in EXCLUDE_EMOJIS:
+        if emoji in text:
+            return True
+    return False
+
+# --- Extract flag from config name ---
+def extract_flag_from_config(config_url):
+    """Extract flag emoji from config name (fragment part)"""
+    try:
+        if "#" in config_url:
+            fragment = config_url.split("#", 1)[1]
+            # Find emojis in the fragment (simple emoji detection)
+            # This regex matches most common emojis
+            emoji_pattern = re.compile(r'[\U0001F600-\U0001F64F\U0001F300-\U0001F5FF\U0001F680-\U0001F6FF\U0001F1E0-\U0001F1FF]')
+            emojis = emoji_pattern.findall(fragment)
+            if emojis:
+                return emojis[0]  # Return first emoji as flag
+    except:
+        pass
+    return "🏴"  # Default flag if none found
+
+# --- Download subscription from URL ---
+async def download_subscription(url):
+    """Download and decode subscription from a URL"""
+    try:
+        async with aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=10)) as session:
+            async with session.get(url) as response:
+                if response.status == 200:
+                    content = await response.read()
+                    # Try to decode as base64
+                    try:
+                        decoded = base64.b64decode(content).decode('utf-8')
+                        # Split by lines and filter empty lines
+                        configs = [line.strip() for line in decoded.splitlines() if line.strip()]
+                        return configs
+                    except:
+                        # If not base64, try as plain text
+                        plain_text = content.decode('utf-8')
+                        configs = [line.strip() for line in plain_text.splitlines() if line.strip()]
+                        return configs
+    except Exception as e:
+        print(f"Error downloading subscription: {e}")
+    return []
+
+# --- Process mohammadaz2 subscription ---
+async def process_mohammadaz2_subscription(client):
+    """Check last message from @mohammadaz2 and process if it's a subscription link"""
+    emergency_configs = []
+    flag = "🏴"  # Default flag
+    
+    try:
+        # Get the last message from @mohammadaz2
+        async for message in client.search_messages("@mohammadaz2", limit=1):
+            if not message.text:
+                return emergency_configs, flag
+                
+            text = message.text.strip()
+            
+            # Check if it's a URL
+            url_pattern = re.compile(r'https?://[^\s]+')
+            match = url_pattern.search(text)
+            
+            if match:
+                url = match.group(0)
+                print(f"Found subscription URL from @mohammadaz2: {url}")
+                
+                # Download configs from subscription
+                configs = await download_subscription(url)
+                
+                if configs:
+                    print(f"Downloaded {len(configs)} configs from subscription")
+                    
+                    # Process first config to get flag (if not excluded)
+                    if configs:
+                        first_config = configs[0]
+                        config_name = first_config.split("#", 1)[1] if "#" in first_config else ""
+                        
+                        # Check if first config contains excluded emoji
+                        if not contains_excluded_emoji(config_name):
+                            flag = extract_flag_from_config(first_config)
+                        
+                        # Filter configs that don't contain excluded emojis in their names
+                        for config in configs:
+                            if "#" in config:
+                                config_name = config.split("#", 1)[1]
+                                if not contains_excluded_emoji(config_name):
+                                    emergency_configs.append(config)
+                            else:
+                                emergency_configs.append(config)
+                    
+                    print(f"Added {len(emergency_configs)} emergency configs (after filtering)")
+                
+    except Exception as e:
+        print(f"Error processing @mohammadaz2 subscription: {e}")
+    
+    return emergency_configs, flag
 
 # --- Format configs ---
-def format_configs(configs, channels_scanned):
-    if not configs:
+def format_configs(configs, channels_scanned, emergency_configs, emergency_flag):
+    if not configs and not emergency_configs:
         return []
 
     # --- Tehran time ---
@@ -58,7 +161,6 @@ def format_configs(configs, channels_scanned):
 
     formatted = []
 
-    
     header_base = DEFAULT_HEADER_CONFIG.split("#", 1)[0]
 
     # ---- HEADERS ----
@@ -72,17 +174,28 @@ def format_configs(configs, channels_scanned):
     for h in headers:
         formatted.append(f"{header_base}#{h}")
 
+    # ---- EMERGENCY SERVERS ----
+    if emergency_configs:
+        emergency_header = f"{emergency_flag} EMERGENCY SERVERS {emergency_flag} | @mohammadaz2"
+        formatted.append(f"{header_base}#{emergency_header}")
+        
+        # Add emergency configs
+        for i, config in enumerate(emergency_configs, start=1):
+            url_part = config.split("#", 1)[0]
+            fragment = f"Emergency Server {i}"
+            formatted.append(f"{url_part}#{fragment}")
+
     # ---- REAL CONFIGS ----
-    total = len(configs)
-    for i, config in enumerate(configs, start=1):
-        url_part = config.split("#", 1)[0]
-        fragment = FORMAT_STRING \
-            .replace("{number}", str(i)) \
-            .replace("{total}", str(total))
-        formatted.append(f"{url_part}#{fragment}")
+    if configs:
+        total = len(configs)
+        for i, config in enumerate(configs, start=1):
+            url_part = config.split("#", 1)[0]
+            fragment = FORMAT_STRING \
+                .replace("{number}", str(i)) \
+                .replace("{total}", str(total))
+            formatted.append(f"{url_part}#{fragment}")
 
     return formatted
-
 
 # --- Deduplication ---
 def parse_config_for_deduplication(config_url):
@@ -115,7 +228,6 @@ def parse_config_for_deduplication(config_url):
 
     except Exception:
         return None
-
 
 # --- Scan channels ---
 async def scan_channels(client):
@@ -158,25 +270,30 @@ async def scan_channels(client):
 
     return configs, channels_scanned
 
-
 # --- Main ---
 async def telegram_scan():
     async with PyrogramClient("my_accountb") as client:
         print("Starting Telegram scan...")
 
+        # Process @mohammadaz2 subscription first
+        emergency_configs, emergency_flag = await process_mohammadaz2_subscription(client)
+        
+        # Scan regular channels
         configs, channels_scanned = await scan_channels(client)
 
-        if not configs:
+        if not configs and not emergency_configs:
             print("❌ No configs found")
             return
 
-        formatted = format_configs(configs, channels_scanned)
+        formatted = format_configs(configs, channels_scanned, emergency_configs, emergency_flag)
 
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(formatted))
 
-        print(f"✅ Saved {len(formatted)} configs to {OUTPUT_FILE}")
-
+        total_configs = len(formatted)
+        print(f"✅ Saved {total_configs} configs to {OUTPUT_FILE}")
+        if emergency_configs:
+            print(f"📢 Including {len(emergency_configs)} emergency configs from @mohammadaz2")
 
 if __name__ == "__main__":
     asyncio.run(telegram_scan())
