@@ -55,24 +55,61 @@ def extract_flag_from_config(config_url):
 async def download_subscription(url):
     """Download and decode subscription from a URL"""
     try:
-        async with aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=10)) as session:
-            async with session.get(url) as response:
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        }
+        
+        async with aiohttp.ClientSession(
+            timeout=aiohttp.ClientTimeout(total=30),
+            headers=headers
+        ) as session:
+            async with session.get(url, ssl=False) as response:  # ssl=False for problematic SSL certs
                 if response.status == 200:
                     content = await response.read()
+                    
                     # Try to decode as base64
                     try:
-                        decoded = base64.b64decode(content).decode('utf-8')
+                        # Remove any whitespace or newlines
+                        encoded_content = content.decode('utf-8').strip()
+                        # Add padding if needed
+                        padding_needed = len(encoded_content) % 4
+                        if padding_needed:
+                            encoded_content += '=' * (4 - padding_needed)
+                        
+                        decoded = base64.b64decode(encoded_content).decode('utf-8')
                         # Split by lines and filter empty lines
                         configs = [line.strip() for line in decoded.splitlines() if line.strip()]
                         return configs
-                    except:
+                    except Exception as decode_error:
                         # If not base64, try as plain text
-                        plain_text = content.decode('utf-8')
-                        configs = [line.strip() for line in plain_text.splitlines() if line.strip()]
-                        return configs
+                        try:
+                            plain_text = content.decode('utf-8', errors='ignore')
+                            # Try to find configs in plain text
+                            configs = []
+                            for pattern in PATTERNS:
+                                for match in pattern.finditer(plain_text):
+                                    cfg = match.group(0).strip()
+                                    if cfg and cfg not in configs:
+                                        configs.append(cfg)
+                            
+                            if configs:
+                                return configs
+                            else:
+                                # If no patterns found, treat each line as a config
+                                configs = [line.strip() for line in plain_text.splitlines() if line.strip()]
+                                return configs
+                        except:
+                            print(f"Failed to decode subscription content")
+                            return []
+                else:
+                    print(f"Subscription request failed with status: {response.status}")
+                    return []
+    except aiohttp.ClientError as e:
+        print(f"Network error downloading subscription: {type(e).__name__}")
+        return []
     except Exception as e:
-        print(f"Error downloading subscription: {e}")
-    return []
+        print(f"Unexpected error downloading subscription: {type(e).__name__}")
+        return []
 
 # --- Process mohammadaz2 subscription ---
 async def process_mohammadaz2_subscription(client):
@@ -94,7 +131,7 @@ async def process_mohammadaz2_subscription(client):
             
             if match:
                 url = match.group(0)
-                print(f"Found subscription URL from @mohammadaz2: {url}")
+                print(f"Found subscription from @mohammadaz2")
                 
                 # Download configs from subscription
                 configs = await download_subscription(url)
@@ -122,6 +159,8 @@ async def process_mohammadaz2_subscription(client):
                             emergency_configs.append(config)
                     
                     print(f"Added {len(emergency_configs)} emergency configs (after filtering)")
+                else:
+                    print("No valid configs found in subscription")
                 
     except Exception as e:
         print(f"Error processing @mohammadaz2 subscription: {e}")
