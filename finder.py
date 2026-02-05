@@ -5,6 +5,7 @@ import json
 from datetime import datetime, timedelta
 from urllib.parse import unquote, urlparse, parse_qs
 import aiohttp
+import emoji
 
 import jdatetime
 import pytz
@@ -29,8 +30,10 @@ EXCLUDE_EMOJIS = ["📅", "📊", "📈", "📉", "📆", "🗓️", "📋", "�
 # --- Helper function to check if a string contains excluded emojis ---
 def contains_excluded_emoji(text):
     """Check if text contains any of the excluded emojis"""
-    for emoji in EXCLUDE_EMOJIS:
-        if emoji in text:
+    # Use emoji library for comprehensive detection
+    emoji_list = emoji.distinct_emoji_list(text)
+    for emoji_char in emoji_list:
+        if emoji_char in EXCLUDE_EMOJIS:
             return True
     return False
 
@@ -40,10 +43,8 @@ def extract_flag_from_config(config_url):
     try:
         if "#" in config_url:
             fragment = config_url.split("#", 1)[1]
-            # Find emojis in the fragment (simple emoji detection)
-            # This regex matches most common emojis including flags
-            emoji_pattern = re.compile(r'[\U0001F600-\U0001F64F\U0001F300-\U0001F5FF\U0001F680-\U0001F6FF\U0001F1E0-\U0001F1FF]')
-            emojis = emoji_pattern.findall(fragment)
+            # Use emoji library for comprehensive emoji detection
+            emojis = emoji.distinct_emoji_list(fragment)
             if emojis:
                 # Return first emoji as flag
                 return emojis[0]
@@ -63,7 +64,7 @@ async def download_subscription(url):
             timeout=aiohttp.ClientTimeout(total=30),
             headers=headers
         ) as session:
-            async with session.get(url, ssl=False) as response:  # ssl=False for problematic SSL certs
+            async with session.get(url, ssl=False) as response:
                 if response.status == 200:
                     content = await response.read()
                     
@@ -197,6 +198,10 @@ def format_configs(configs, channels_scanned, emergency_configs, emergency_flags
     # Hour:Minute in Tehran
     hour_min_fa = now_tehran.strftime("%H:%M").translate(persian_digits)
 
+    # Jalali date
+    jalali_date_str = jalali_now.strftime("%Y/%m/%d")
+    jalali_date_fa = jalali_date_str.translate(persian_digits)
+
     # Channels scanned in Persian
     channels_fa = str(channels_scanned).translate(persian_digits)
 
@@ -209,6 +214,7 @@ def format_configs(configs, channels_scanned, emergency_configs, emergency_flags
         "Mohammad hossein Configs | @mohammadaz2",
         f"📅 آخرین آپدیت: {weekday_fa} ساعت {hour_min_fa}",
         f"📊 جمع آوری شده از {channels_fa} کانال",
+        f"🗓️ تاریخ: {jalali_date_fa}",
         "🔄برای اپدیت کانفیگ ها سه نقطه را بفشارید و گزینه آخر را انتخاب کنید.",
     ]
 
@@ -230,6 +236,10 @@ def format_configs(configs, channels_scanned, emergency_configs, emergency_flags
         if emergency_configs:
             separator = "───────────────"
             formatted.append(f"{header_base}#{separator}")
+        
+        # Add header for regular configs
+        regular_header = "📡 Regular Configs 📡 | @mohammadaz2"
+        formatted.append(f"{header_base}#{regular_header}")
         
         total = len(configs)
         for i, config in enumerate(configs, start=1):
