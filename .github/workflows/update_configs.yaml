@@ -31,7 +31,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install --no-cache-dir pyrogram tgcrypto requests jdatetime pytz
+          pip install --no-cache-dir pyrogram tgcrypto requests jdatetime pytz aiohttp
 
       - name: Decrypt Telegram session securely
         env:
