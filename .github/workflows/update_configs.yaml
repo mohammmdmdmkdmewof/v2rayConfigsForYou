@@ -34,13 +34,12 @@ jobs:
         id: pip-cache
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/*.py') }}
+          key: ${{ runner.os }}-pip-downloads
           restore-keys: |
-            ${{ runner.os }}-pip-
+            ${{ runner.os }}-pip-downloads
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install pyrogram tgcrypto requests jdatetime pytz aiohttp emoji
 
       - name: Decrypt Telegram session securely
