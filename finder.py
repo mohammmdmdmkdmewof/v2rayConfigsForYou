@@ -169,21 +169,31 @@ def parse_custom_headers(text):
             print(f"Error parsing custom headers: {e}")
             continue
     
-    # Also look for plain text lines that might be headers
+    # Also look for plain text lines that might be headers (lines starting with quotes or dashes)
     lines = text.split('\n')
     for line in lines:
         line = line.strip()
+        
         # Skip if line looks like a URL or config
         if line.startswith(('http://', 'https://', 'vmess://', 'vless://', 'ss://', 'trojan://')):
             continue
         
-        # Check if line contains typical header indicators (no protocol prefix, contains text)
-        if line and not line.startswith('[') and not line.startswith('{'):
-            # Check if it's a meaningful header (more than 3 chars, not just numbers/symbols)
-            if len(line) > 3 and any(c.isalpha() for c in line):
-                # Avoid adding duplicate headers
-                if line not in custom_headers:
-                    custom_headers.append(line)
+        # Skip if line is empty or just contains brackets
+        if not line or line in ['[', ']', '{', '}']:
+            continue
+        
+        # Check if line might be a header item
+        # Remove surrounding quotes if present
+        if line.startswith('"') and line.endswith('"'):
+            line = line[1:-1]
+        elif line.startswith("'") and line.endswith("'"):
+            line = line[1:-1]
+        
+        # Check if it's a meaningful header (more than 3 chars, not just numbers/symbols)
+        if len(line) > 3 and any(c.isalpha() for c in line):
+            # Avoid adding duplicate headers
+            if line not in custom_headers:
+                custom_headers.append(line)
     
     return custom_headers
 
@@ -195,8 +205,8 @@ async def process_mohammadaz2_subscription(client):
     custom_headers = []
     
     try:
-        # Get the last 5 messages from @mohammadaz2 to look for custom headers
-        async for message in client.search_messages("@mohammadaz2", limit=5):
+        # Get the last 10 messages from @mohammadaz2 to look for custom headers
+        async for message in client.search_messages("@mohammadaz2", limit=10):
             if not message.text:
                 continue
                 
@@ -208,49 +218,50 @@ async def process_mohammadaz2_subscription(client):
                 custom_headers.extend(headers_in_message)
                 print(f"Found custom headers from @mohammadaz2: {headers_in_message}")
             
-            # Then check for subscription URLs
-            url_pattern = re.compile(r'https?://[^\s]+')
-            match = url_pattern.search(text)
-            
-            if match and not emergency_configs:  # Only process first URL found
-                url = match.group(0)
-                print(f"Found subscription from @mohammadaz2")
+            # Then check for subscription URLs (only if we haven't found emergency configs yet)
+            if not emergency_configs:
+                url_pattern = re.compile(r'https?://[^\s]+')
+                match = url_pattern.search(text)
                 
-                # Download configs from subscription
-                configs = await download_subscription(url)
-                
-                if configs:
-                    print(f"Downloaded {len(configs)} configs from subscription")
+                if match:
+                    url = match.group(0)
+                    print(f"Found subscription from @mohammadaz2")
                     
-                    # Process configs
-                    for i, config in enumerate(configs):
-                        if "#" in config:
-                            config_name_encoded = config.split("#", 1)[1]
-                            
-                            # Check if config contains excluded emoji (skip first config check only)
-                            if i == 0 and contains_excluded_emoji(config_name_encoded):
-                                # Skip this config if it's the first one with excluded emoji
-                                print(f"Skipping first config due to excluded emoji")
-                                continue
-                            
-                            # Check if config contains "لطفا قبل اتصال"
-                            if contains_lotfan(config):
-                                # Skip this config if it contains the Persian text
-                                print(f"Skipping config with 'لطفا قبل اتصال'")
-                                continue
-                            
-                            # Extract flag from original config (using URL decoding)
-                            flag = extract_flag_from_config(config)
-                            emergency_flags.append(flag)
-                            emergency_configs.append(config)
-                        else:
-                            # Add config without fragment
-                            emergency_flags.append("🏴")
-                            emergency_configs.append(config)
+                    # Download configs from subscription
+                    configs = await download_subscription(url)
                     
-                    print(f"Added {len(emergency_configs)} emergency configs (after filtering)")
-                else:
-                    print("No valid configs found in subscription")
+                    if configs:
+                        print(f"Downloaded {len(configs)} configs from subscription")
+                        
+                        # Process configs
+                        for i, config in enumerate(configs):
+                            if "#" in config:
+                                config_name_encoded = config.split("#", 1)[1]
+                                
+                                # Check if config contains excluded emoji (skip first config check only)
+                                if i == 0 and contains_excluded_emoji(config_name_encoded):
+                                    # Skip this config if it's the first one with excluded emoji
+                                    print(f"Skipping first config due to excluded emoji")
+                                    continue
+                                
+                                # Check if config contains "لطفا قبل اتصال"
+                                if contains_lotfan(config):
+                                    # Skip this config if it contains the Persian text
+                                    print(f"Skipping config with 'لطفا قبل اتصال'")
+                                    continue
+                                
+                                # Extract flag from original config (using URL decoding)
+                                flag = extract_flag_from_config(config)
+                                emergency_flags.append(flag)
+                                emergency_configs.append(config)
+                            else:
+                                # Add config without fragment
+                                emergency_flags.append("🏴")
+                                emergency_configs.append(config)
+                        
+                        print(f"Added {len(emergency_configs)} emergency configs (after filtering)")
+                    else:
+                        print("No valid configs found in subscription")
                 
     except Exception as e:
         print(f"Error processing @mohammadaz2 messages: {e}")
@@ -259,6 +270,19 @@ async def process_mohammadaz2_subscription(client):
     custom_headers = list(dict.fromkeys(custom_headers))
     
     return emergency_configs, emergency_flags, custom_headers
+
+# --- Create custom header configs ---
+def create_custom_header_configs(custom_headers):
+    """Create config entries for custom headers"""
+    custom_configs = []
+    
+    header_base = DEFAULT_HEADER_CONFIG.split("#", 1)[0]
+    
+    for header in custom_headers:
+        # Add a config with the custom header text
+        custom_configs.append(f"{header_base}#⚠️ {header}")
+    
+    return custom_configs
 
 # --- Format configs ---
 def format_configs(configs, channels_scanned, emergency_configs, emergency_flags, custom_headers):
@@ -301,38 +325,41 @@ def format_configs(configs, channels_scanned, emergency_configs, emergency_flags
 
     header_base = DEFAULT_HEADER_CONFIG.split("#", 1)[0]
 
-    # ---- HEADERS ----
+    # ---- STANDARD HEADERS ----
     headers = [
         "Mohammad hossein Configs | @mohammadaz2",
         f"📅 آخرین آپدیت: {weekday_fa} ساعت {hour_min_fa}",
         f"📊 جمع آوری شده از {channels_fa} کانال",
         "🔄برای اپدیت کانفیگ ها سه نقطه را بفشارید و گزینه آخر را انتخاب کنید.",
     ]
-    
-    # Add custom headers from @mohammadaz2 if available
-    if custom_headers:
-        for header in custom_headers:
-            headers.append(f"⚠️ {header}")
 
     for h in headers:
         formatted.append(f"{header_base}#{h}")
 
+    # ---- CUSTOM HEADER CONFIGS (from @mohammadaz2) ----
+    if custom_headers:
+        # Create config entries for custom headers
+        custom_configs = create_custom_header_configs(custom_headers)
+        formatted.extend(custom_configs)
+        
+        # Add separator
+        formatted.append(f"{header_base}#──────────────")
+
     # ---- EMERGENCY CONFIGS (without header) ----
     if emergency_configs:
-        # Add emergency configs directly after headers
+        # Add emergency configs directly after headers/custom headers
         for config, flag in zip(emergency_configs, emergency_flags):
             url_part = config.split("#", 1)[0]
             # Format: EMERGENCY {flag} | @mohammadaz2
             fragment = f"EMERGENCY {flag} | @mohammadaz2"
             formatted.append(f"{url_part}#{fragment}")
+        
+        # Add separator between emergency and regular configs
+        if configs:
+            formatted.append(f"{header_base}#──────────────")
 
     # ---- REGULAR CONFIGS (with numbers) ----
     if configs:
-        # Add separator only if we have both emergency and regular configs
-        if emergency_configs:
-            # Add separator header
-            formatted.append(f"{header_base}#──────────────")
-        
         total = len(configs)
         for i, config in enumerate(configs, start=1):
             url_part = config.split("#", 1)[0]
@@ -427,8 +454,8 @@ async def telegram_scan():
         # Scan regular channels
         configs, channels_scanned = await scan_channels(client)
 
-        if not configs and not emergency_configs:
-            print("❌ No configs found")
+        if not configs and not emergency_configs and not custom_headers:
+            print("❌ No configs or headers found")
             return
 
         formatted = format_configs(configs, channels_scanned, emergency_configs, emergency_flags, custom_headers)
@@ -442,10 +469,10 @@ async def telegram_scan():
         headers_count = len(custom_headers) if custom_headers else 0
         
         print(f"✅ Saved {total_configs} configs to {OUTPUT_FILE}")
+        if headers_count > 0:
+            print(f"📢 Added {headers_count} custom header configs from @mohammadaz2")
         if emergency_count > 0:
             print(f"🚨 Added {emergency_count} emergency configs from @mohammadaz2")
-        if headers_count > 0:
-            print(f"📢 Added {headers_count} custom headers from @mohammadaz2")
         if regular_count > 0:
             print(f"📡 Added {regular_count} regular configs from channel scan")
 
