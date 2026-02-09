@@ -195,7 +195,7 @@ async def telegram_scan():
         print("Starting Telegram scan...")
         
         # Check for JSON notice
-        notice_data = await check_json_notice(client
+        notice_data = await check_json_notice(client)
         
         # Scan channels
         configs, channels_scanned = await scan_channels(client)
