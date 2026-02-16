@@ -2,7 +2,6 @@ import asyncio
 import base64
 import re
 import json
-from collections import defaultdict
 from datetime import datetime, timedelta
 from urllib.parse import unquote, urlparse, parse_qs
 import aiohttp
@@ -14,6 +13,7 @@ from pyrogram import Client as PyrogramClient, enums
 
 OUTPUT_FILE = "configs.txt"
 FORMAT_STRING = "Config | {number} / {total}"
+MAX_CONFIGS = 500  # Maximum number of configs to save
 
 DEFAULT_HEADER_CONFIG = "vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#header"
 
@@ -310,19 +310,20 @@ def parse_config_for_deduplication(config_url):
     except Exception:
         return None
 
-# --- Scan channels ---
+# --- Scan channels with config limit ---
 async def scan_channels(client):
     unique_ids = set()
     configs = []
     channels_scanned = 0
-    
-    # Track configs per channel
-    channel_config_counts = defaultdict(int)
-    channel_names = {}
 
     cutoff = datetime.utcnow() - timedelta(hours=24)
 
     async for dialog in client.get_dialogs():
+        # Stop scanning if we've reached the maximum configs
+        if len(configs) >= MAX_CONFIGS:
+            print(f"\n⚠️ Reached maximum config limit ({MAX_CONFIGS}), stopping scan...")
+            break
+            
         if not (
             dialog.chat.type == enums.ChatType.CHANNEL
             and dialog.top_message
@@ -331,19 +332,15 @@ async def scan_channels(client):
             continue
 
         channels_scanned += 1
-        channel_name = dialog.chat.title or "Unknown Channel"
-        channel_username = f"@{dialog.chat.username}" if dialog.chat.username else "No username"
-        channel_id = dialog.chat.id
-        
-        # Store channel identifier
-        channel_display = f"{channel_name} ({channel_username})" if dialog.chat.username else f"{channel_name} (ID: {channel_id})"
-        channel_names[channel_id] = channel_display
-        
-        print(f"Scanning: {channel_display}")
-        channel_config_count = 0
+        print(f"Scanning: {dialog.chat.title} (Current configs: {len(configs)}/{MAX_CONFIGS})")
 
         try:
             async for msg in client.get_chat_history(dialog.chat.id):
+                # Stop if we've reached the limit
+                if len(configs) >= MAX_CONFIGS:
+                    print(f"  Reached limit while scanning, stopping...")
+                    break
+                    
                 if msg.date < cutoff:
                     break
 
@@ -358,88 +355,61 @@ async def scan_channels(client):
                         if ident and ident not in unique_ids:
                             unique_ids.add(ident)
                             configs.append(cfg)
-                            channel_config_count += 1
-
-            # Store count for this channel
-            if channel_config_count > 0:
-                channel_config_counts[channel_id] = channel_config_count
-                print(f"  Found {channel_config_count} configs in this channel")
+                            
+                            # Check limit after adding
+                            if len(configs) >= MAX_CONFIGS:
+                                print(f"  Reached maximum configs ({MAX_CONFIGS})!")
+                                break
+                    
+                    if len(configs) >= MAX_CONFIGS:
+                        break
+                        
+                if len(configs) >= MAX_CONFIGS:
+                    break
 
         except Exception as e:
-            print(f"Error in {channel_display}: {str(e)[:40]}...")
+            print(f"Error in {dialog.chat.title}: {str(e)[:40]}...")
 
-    return configs, channels_scanned, channel_config_counts, channel_names
-
-# --- Print leaderboard ---
-def print_leaderboard(channel_config_counts, channel_names, total_configs):
-    """Print a leaderboard of channels with most configs"""
-    if not channel_config_counts:
-        print("\n📊 No channels with configs found in the last 24 hours")
-        return
-    
-    # Sort channels by config count (descending)
-    sorted_channels = sorted(channel_config_counts.items(), key=lambda x: x[1], reverse=True)
-    
-    print("\n" + "="*60)
-    print("🏆 CHANNEL LEADERBOARD (Last 24 hours) 🏆")
-    print("="*60)
-    
-    # Find the maximum count for formatting
-    max_count = sorted_channels[0][1] if sorted_channels else 0
-    max_count_length = len(str(max_count))
-    
-    for rank, (channel_id, count) in enumerate(sorted_channels, 1):
-        channel_display = channel_names.get(channel_id, f"Unknown Channel (ID: {channel_id})")
-        
-        # Truncate long channel names
-        if len(channel_display) > 40:
-            channel_display = channel_display[:37] + "..."
-        
-        # Create a visual bar
-        bar_length = int((count / max_count) * 20) if max_count > 0 else 0
-        bar = "█" * bar_length
-        
-        # Medal emojis for top 3
-        if rank == 1:
-            medal = "🥇"
-        elif rank == 2:
-            medal = "🥈"
-        elif rank == 3:
-            medal = "🥉"
-        else:
-            medal = "  "
-        
-        # Print the leaderboard entry
-        print(f"{medal} #{rank:<2} {channel_display:<40} {count:>{max_count_length}} configs {bar}")
-    
-    print("="*60)
-    print(f"📊 Total configs found: {total_configs}")
-    print(f"📡 Channels with configs: {len(channel_config_counts)}")
-    print("="*60)
+    return configs, channels_scanned
 
 # --- Main ---
 async def telegram_scan():
     async with PyrogramClient("my_accountb") as client:
         print("Starting Telegram scan...")
+        print(f"📊 Maximum configs to save: {MAX_CONFIGS}")
 
         # Process @mohammadaz2 subscription first
         emergency_configs, emergency_flags = await process_mohammadaz2_subscription(client)
         
-        # Scan regular channels
-        configs, channels_scanned, channel_config_counts, channel_names = await scan_channels(client)
+        # Calculate remaining slots for regular configs
+        remaining_slots = MAX_CONFIGS - len(emergency_configs)
+        if remaining_slots <= 0:
+            print(f"⚠️ Emergency configs already reached/exceeded limit ({len(emergency_configs)} >= {MAX_CONFIGS})")
+            print("Skipping channel scan...")
+            regular_configs = []
+            channels_scanned = 0
+        else:
+            print(f"📡 Scanning channels for up to {remaining_slots} more configs...")
+            # Scan regular channels with limit
+            regular_configs, channels_scanned = await scan_channels(client)
+            
+            # Trim if we somehow exceeded the limit
+            if len(regular_configs) > remaining_slots:
+                regular_configs = regular_configs[:remaining_slots]
+                print(f"✂️ Trimmed regular configs to {remaining_slots} to stay under limit")
 
-        if not configs and not emergency_configs:
+        if not regular_configs and not emergency_configs:
             print("❌ No configs found")
             return
 
-        formatted = format_configs(configs, channels_scanned, emergency_configs, emergency_flags)
+        formatted = format_configs(regular_configs, channels_scanned, emergency_configs, emergency_flags)
 
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(formatted))
 
         total_configs = len(formatted)
         emergency_count = len(emergency_configs) if emergency_configs else 0
-        regular_count = len(configs) if configs else 0
+        regular_count = len(regular_configs) if regular_configs else 0
         
         print(f"\n✅ Saved {total_configs} configs to {OUTPUT_FILE}")
         if emergency_count > 0:
@@ -447,8 +417,8 @@ async def telegram_scan():
         if regular_count > 0:
             print(f"📡 Added {regular_count} regular configs from channel scan")
         
-        # Print the leaderboard
-        print_leaderboard(channel_config_counts, channel_names, regular_count)
+        if total_configs >= MAX_CONFIGS:
+            print(f"⚠️ Reached maximum config limit ({MAX_CONFIGS})")
 
 if __name__ == "__main__":
     asyncio.run(telegram_scan())
