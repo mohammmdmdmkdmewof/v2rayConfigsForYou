@@ -2,6 +2,7 @@ import asyncio
 import base64
 import re
 import json
+from collections import defaultdict
 from datetime import datetime, timedelta
 from urllib.parse import unquote, urlparse, parse_qs
 import aiohttp
@@ -314,6 +315,10 @@ async def scan_channels(client):
     unique_ids = set()
     configs = []
     channels_scanned = 0
+    
+    # Track configs per channel
+    channel_config_counts = defaultdict(int)
+    channel_names = {}
 
     cutoff = datetime.utcnow() - timedelta(hours=24)
 
@@ -326,7 +331,16 @@ async def scan_channels(client):
             continue
 
         channels_scanned += 1
-        print(f"Scanning: {dialog.chat.title}")
+        channel_name = dialog.chat.title or "Unknown Channel"
+        channel_username = f"@{dialog.chat.username}" if dialog.chat.username else "No username"
+        channel_id = dialog.chat.id
+        
+        # Store channel identifier
+        channel_display = f"{channel_name} ({channel_username})" if dialog.chat.username else f"{channel_name} (ID: {channel_id})"
+        channel_names[channel_id] = channel_display
+        
+        print(f"Scanning: {channel_display}")
+        channel_config_count = 0
 
         try:
             async for msg in client.get_chat_history(dialog.chat.id):
@@ -344,11 +358,64 @@ async def scan_channels(client):
                         if ident and ident not in unique_ids:
                             unique_ids.add(ident)
                             configs.append(cfg)
+                            channel_config_count += 1
+
+            # Store count for this channel
+            if channel_config_count > 0:
+                channel_config_counts[channel_id] = channel_config_count
+                print(f"  Found {channel_config_count} configs in this channel")
 
         except Exception as e:
-            print(f"Error in {dialog.chat.title}: {str(e)[:40]}...")
+            print(f"Error in {channel_display}: {str(e)[:40]}...")
 
-    return configs, channels_scanned
+    return configs, channels_scanned, channel_config_counts, channel_names
+
+# --- Print leaderboard ---
+def print_leaderboard(channel_config_counts, channel_names, total_configs):
+    """Print a leaderboard of channels with most configs"""
+    if not channel_config_counts:
+        print("\n📊 No channels with configs found in the last 24 hours")
+        return
+    
+    # Sort channels by config count (descending)
+    sorted_channels = sorted(channel_config_counts.items(), key=lambda x: x[1], reverse=True)
+    
+    print("\n" + "="*60)
+    print("🏆 CHANNEL LEADERBOARD (Last 24 hours) 🏆")
+    print("="*60)
+    
+    # Find the maximum count for formatting
+    max_count = sorted_channels[0][1] if sorted_channels else 0
+    max_count_length = len(str(max_count))
+    
+    for rank, (channel_id, count) in enumerate(sorted_channels, 1):
+        channel_display = channel_names.get(channel_id, f"Unknown Channel (ID: {channel_id})")
+        
+        # Truncate long channel names
+        if len(channel_display) > 40:
+            channel_display = channel_display[:37] + "..."
+        
+        # Create a visual bar
+        bar_length = int((count / max_count) * 20) if max_count > 0 else 0
+        bar = "█" * bar_length
+        
+        # Medal emojis for top 3
+        if rank == 1:
+            medal = "🥇"
+        elif rank == 2:
+            medal = "🥈"
+        elif rank == 3:
+            medal = "🥉"
+        else:
+            medal = "  "
+        
+        # Print the leaderboard entry
+        print(f"{medal} #{rank:<2} {channel_display:<40} {count:>{max_count_length}} configs {bar}")
+    
+    print("="*60)
+    print(f"📊 Total configs found: {total_configs}")
+    print(f"📡 Channels with configs: {len(channel_config_counts)}")
+    print("="*60)
 
 # --- Main ---
 async def telegram_scan():
@@ -359,7 +426,7 @@ async def telegram_scan():
         emergency_configs, emergency_flags = await process_mohammadaz2_subscription(client)
         
         # Scan regular channels
-        configs, channels_scanned = await scan_channels(client)
+        configs, channels_scanned, channel_config_counts, channel_names = await scan_channels(client)
 
         if not configs and not emergency_configs:
             print("❌ No configs found")
@@ -374,11 +441,14 @@ async def telegram_scan():
         emergency_count = len(emergency_configs) if emergency_configs else 0
         regular_count = len(configs) if configs else 0
         
-        print(f"✅ Saved {total_configs} configs to {OUTPUT_FILE}")
+        print(f"\n✅ Saved {total_configs} configs to {OUTPUT_FILE}")
         if emergency_count > 0:
             print(f"🚨 Added {emergency_count} emergency configs from @mohammadaz2")
         if regular_count > 0:
             print(f"📡 Added {regular_count} regular configs from channel scan")
+        
+        # Print the leaderboard
+        print_leaderboard(channel_config_counts, channel_names, regular_count)
 
 if __name__ == "__main__":
-    asyncio.run(telegram_scan())  
+    asyncio.run(telegram_scan())
