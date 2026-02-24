@@ -1,6 +1,6 @@
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#Mohammad hossein Configs | @mohammadaz2
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: سه‌شنبه ساعت ۰۷:۴۲
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۵ کانال
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: سه‌شنبه ساعت ۰۹:۲۴
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۱۰ کانال
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#🔄برای اپدیت کانفیگ ها سه نقطه را بفشارید و گزینه آخر را انتخاب کنید.
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@188.165.26.180:2053?encryption=none&security=tls&sni=sni.111000.indevs.in&insecure=0&allowInsecure=0&type=ws&host=sni.111000.indevs.in&path=%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2#Config | 1 / 500
 vless://07cd9dbe-21ac-4871-817d-c772687e4b7c@178.17.59.73:2053?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=WckOSneVajAzpH0sZSAFAWPnmwuuEXKZrTICNj5_hHU&sid=423bccc9c13fb509&sni=www.ibm.com#Config | 2 / 500
