@@ -1,6 +1,6 @@
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#Mohammad hossein Configs | @mohammadaz2
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: پنج‌شنبه ساعت ۲۰:۲۳
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۳۷ کانال
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: پنج‌شنبه ساعت ۲۱:۱۴
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۳۸ کانال
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#🔄برای اپدیت کانفیگ ها سه نقطه را بفشارید و گزینه آخر را انتخاب کنید.
 <!DOCTYPE html>#EMERGENCY 🏴 | @mohammadaz2
 <html>#EMERGENCY 🏴 | @mohammadaz2
@@ -63,7 +63,7 @@ vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&secur
 </g>#EMERGENCY 🏴 | @mohammadaz2
 </svg>#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
-<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=2b51d3464b2592882b_3643650594177481083">#EMERGENCY 🏴 | @mohammadaz2
+<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=49b9cbb93623f8e98a_8836513870652851604">#EMERGENCY 🏴 | @mohammadaz2
 Download#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
@@ -76,7 +76,7 @@ Download#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_page_title" dir="auto">#EMERGENCY 🏴 | @mohammadaz2
 <span dir="auto">Hell</span>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
-<div class="tgme_page_extra">36 members, 2 online</div>#EMERGENCY 🏴 | @mohammadaz2
+<div class="tgme_page_extra">36 members</div>#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_page_action">#EMERGENCY 🏴 | @mohammadaz2
 <a class="tgme_action_button_new shine" href="tg://join?invite=ZoR2Kg2dwddkMTQ0">Join Group</a>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
@@ -137,41 +137,41 @@ toggleTheme(e.matches);#EMERGENCY 🏴 | @mohammadaz2
 </script>#EMERGENCY 🏴 | @mohammadaz2
 </body>#EMERGENCY 🏴 | @mohammadaz2
 </html>#EMERGENCY 🏴 | @mohammadaz2
-<!-- page generated in 17.33ms -->#EMERGENCY 🏴 | @mohammadaz2
-vless://5ac2d3b6-33cc-4442-9c0b-ae3909cabaae@31.42.190.76:443?path=%2F&security=none&encryption=none&type=ws#Config | 1 / 138
-vless://9d15d7ab-5867-4857-b813-bf1924510bca@ez.pubgping.com:8080?security=none&encryption=none&headerType=none&type=tcp#Config | 2 / 138
-vless://dd4f4dec-2cb9-4dcf-b8fc-d88ddaf705a5@bl.khakimilad.online:58992?security=none&encryption=none&headerType=none&type=tcp#Config | 3 / 138
-vless://abcefe01-a19f-4820-b0a8-28ef7360b56c@188.121.103.21:19330?security=none&encryption=none&headerType=none&type=tcp#Config | 4 / 138
-vless://b60dd651-2d4e-4c15-b2d0-60a76c5cc1a6@52.195.208.63:14564?mode=multi&security=reality&encryption=none&pbk=PVjuTK9q16H1XvZ1z11UT1ssMqYfm_w6pXhWeLOScT4&fp=firefox&spx=%2F&type=grpc&serviceName=mci.ir&sni=www.apple.com&sid=9e569fc87f8d54#Config | 5 / 138
-vless://66926652-ad9b-4fbb-9b6c-f4985c82e425@connected5.starpo5.ir:8080?security=none&encryption=none&headerType=http&type=tcp#Config | 6 / 138
-vless://7bed5d53-f043-4fa4-f20b-32e7d1f5a052@p-2-0-2-turk.turkabr.ir:39792?security=none&encryption=none&host=snapp.ir&headerType=http&type=tcp#Config | 7 / 138
-vmess://eyJhZGQiOiIyMTcuMjE4LjUyLjEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiZjkzZjEzNGYtN2FkYi00OGMzLWJjZDEtMjUzMmVkYjBiNDc4IiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMDQxMCIsInBzIjoi2KjYsdin24wg2KfYqti12KfZhCDYr9in2KbZhduMINis2YjbjNmGINi02Yjwn5e+IHBycm9maWxlX3B1cnBsZUAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9#Config | 8 / 138
-vless://619815c6-fce7-4448-b881-4f58d82ce990@h1.msljha8844.site:2020?security=none&encryption=none&host=cafeariel.ir&headerType=http&type=tcp#Config | 9 / 138
-vless://6230f6ae-e514-4a4c-a403-389b5a78698f@tt.onepiecefamily.ir:57263?security=none&encryption=none&headerType=none&type=tcp#Config | 10 / 138
-vless://f91c1cc2-05fe-4efd-ba09-86cb6bec19e3@142.171.65.106:443?path=%2F&security=none&encryption=none&type=ws#Config | 11 / 138
-vless://6f9c8f91-26fd-480e-bc7c-c29df94d3b6c@ir.shomalchat.com:2021?security=none&encryption=none&headerType=none&type=tcp#Config | 12 / 138
-vmess://eyJhZGQiOiIzNy4zMi4yNy4yMDQiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiY2hyb21lIiwiaG9zdCI6IiIsImlkIjoiZDIzMzA5OWMtMjZiYy00YWM4LTk4OGItOWI5M2ExNmM4ZDQ5IiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI4MCIsInBzIjoi2KjYsdin24wg2KfYqti12KfZhCDYr9in2KbZhduMINis2YjbjNmGINi02Yjwn5e+IHBycm9maWxlX3B1cnBsZUAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9#Config | 13 / 138
-vless://ffe756b3-a5c1-43c6-b1ef-19d216223385@star.jeyranim.ir:2053?security=none&encryption=none&headerType=none&type=tcp#Config | 14 / 138
-vless://a3bd84b3-6432-481a-8237-56431d31f320@teamlifez.ir:3000?security=none&encryption=none&headerType=none&type=tcp#Config | 15 / 138
-vless://7e6b66dc-6dbc-4d01-a13e-13d0be4f38ef@65.109.208.248:21235?security=none&encryption=none&headerType=none&type=tcp#Config | 16 / 138
-vless://21915536-afb5-4a0c-b047-fcf549d3a173@meow-frankfurt.nethcloud.top:443?security=reality&encryption=none&pbk=1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ&headerType=none&fp=chrome&type=tcp&sni=wikihow.com&sid=8bd29483ded126b4#Config | 17 / 138
-vless://4e6b23f2-932b-4a80-a280-44cdf8a86452@144.76.188.139:443?type=ws&encryption=none&path=%2F&host=&security=none#Config | 18 / 138
-vless://ba849385-a780-43a0-b4e7-6ab8a08d3824@144.76.188.140:443?type=ws&encryption=none&path=%2F&host=&security=none#Config | 19 / 138
-vless://75e13bcc-139b-4fe7-8525-548c8cfca08d@144.76.188.130:443?type=ws&encryption=none&path=%2F&host=&security=none#Config | 20 / 138
-vless://670d830d-5540-40e8-9cc8-0ef78b091cf5@str.gamepuzzlecenter.com:21760?security=none&encryption=none&headerType=none&type=tcp#Config | 21 / 138
-vless://eb39bc33-c017-4771-83a2-12e9535eb410@SofeWhite.legendperm.ir:1999?security=none&encryption=none&headerType=http&type=tcp#Config | 22 / 138
-vless://f069db6f-8fcc-467e-9237-28b68cc65aae@hi.darkhtpa.ir:23628?path=%2F&security=none&encryption=none&type=ws#Config | 23 / 138
-vless://5e2b5500-d2fb-44c1-8cec-8def7a4347c5@94.183.165.146:443?mode=gun&security=reality&encryption=none&pbk=ize-uZeKIdCj8aB2Lc9zrzQqKLLOeJ1i2klMjyGznjU&fp=firefox&type=grpc&serviceName=qwemmqwoedmqwoemdoqwmedpmqwedmpm&sni=aparat.com&sid=280fd83aff#Config | 24 / 138
-vless://c5389214-cb57-4be4-8e5f-58d0337ff244@yumyum.spacesystems.shop:20354?security=none&encryption=none&headerType=none&type=tcp#Config | 25 / 138
-vless://c3e9e6f7-b8ef-4d8a-aec3-eb6163a5345e@94.183.149.214:8880?path=%2F&security=none&encryption=none&type=ws#Config | 26 / 138
-vless://71f22eb1-96c1-4cde-a8f6-cc755ca83af7@bl.khakimilad.online:58992?security=none&encryption=none&headerType=none&type=tcp#Config | 27 / 138
-vless://f64216af-00df-4967-9fc1-a6022346fc9c@france11.parsi.sbs:15601?security=none&encryption=none&host=rubika.ir&headerType=http&type=tcp#Config | 28 / 138
-vless://9a1ba595-2e2c-4daa-a8a2-8b4a20982213@91.92.182.230:5001?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#Config | 29 / 138
-vless://c2691112-a756-862e-da3d-1e0f3846b0bb@tunn.vpsino.com:2087?security=none&encryption=none&headerType=none&type=tcp#Config | 30 / 138
-vless://a1fd994b-567a-4e1d-9e03-6af688cf479d@IR-FanAva4-AlphaOmega.AlphaOmegaVIP.IR:400?security=none&encryption=none&host=www.telewebion.ir.&headerType=none&type=tcp#Config | 31 / 138
-vless://91317a7e-c08e-4e60-9661-f97c4b2b6068@Edvard.mh.mygoldiran.com:10?path=%2Fwp-content%2Fuploads%2Fuser%2F&security=none&encryption=none&host=varzesh3.com&type=ws#Config | 32 / 138
-vless://25168a7f-05e6-45a6-acaf-e00497c19024@91.92.182.230:5001?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#Config | 33 / 138
-vless://f91c1cc2-05fe-4efd-ba09-86cb6bec19e3@23.95.113.104:443?path=%2F&security=none&encryption=none&type=ws#Config | 34 / 138
+<!-- page generated in 11ms -->#EMERGENCY 🏴 | @mohammadaz2
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIk5ldEFjY291bnQiLA0KICAiYWRkIjogIjIxNy4yMTguNTIuMSIsDQogICJwb3J0IjogIjEwNDEwIiwNCiAgImlkIjogImY5M2YxMzRmLTdhZGItNDhjMy1iY2QxLTI1MzJlZGIwYjQ3OCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIiIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==#Config | 1 / 138
+vless://5ac2d3b6-33cc-4442-9c0b-ae3909cabaae@31.42.190.76:443?path=%2F&security=none&encryption=none&type=ws#Config | 2 / 138
+vless://f91c1cc2-05fe-4efd-ba09-86cb6bec19e3@23.95.113.104:443?path=%2F&security=none&encryption=none&type=ws#Config | 3 / 138
+vless://9d15d7ab-5867-4857-b813-bf1924510bca@ez.pubgping.com:8080?security=none&encryption=none&headerType=none&type=tcp#Config | 4 / 138
+vless://dd4f4dec-2cb9-4dcf-b8fc-d88ddaf705a5@bl.khakimilad.online:58992?security=none&encryption=none&headerType=none&type=tcp#Config | 5 / 138
+vless://abcefe01-a19f-4820-b0a8-28ef7360b56c@188.121.103.21:19330?security=none&encryption=none&headerType=none&type=tcp#Config | 6 / 138
+vless://b60dd651-2d4e-4c15-b2d0-60a76c5cc1a6@52.195.208.63:14564?mode=multi&security=reality&encryption=none&pbk=PVjuTK9q16H1XvZ1z11UT1ssMqYfm_w6pXhWeLOScT4&fp=firefox&spx=%2F&type=grpc&serviceName=mci.ir&sni=www.apple.com&sid=9e569fc87f8d54#Config | 7 / 138
+vless://66926652-ad9b-4fbb-9b6c-f4985c82e425@connected5.starpo5.ir:8080?security=none&encryption=none&headerType=http&type=tcp#Config | 8 / 138
+vless://7bed5d53-f043-4fa4-f20b-32e7d1f5a052@p-2-0-2-turk.turkabr.ir:39792?security=none&encryption=none&host=snapp.ir&headerType=http&type=tcp#Config | 9 / 138
+vless://619815c6-fce7-4448-b881-4f58d82ce990@h1.msljha8844.site:2020?security=none&encryption=none&host=cafeariel.ir&headerType=http&type=tcp#Config | 10 / 138
+vless://6230f6ae-e514-4a4c-a403-389b5a78698f@tt.onepiecefamily.ir:57263?security=none&encryption=none&headerType=none&type=tcp#Config | 11 / 138
+vless://f91c1cc2-05fe-4efd-ba09-86cb6bec19e3@142.171.65.106:443?path=%2F&security=none&encryption=none&type=ws#Config | 12 / 138
+vless://6f9c8f91-26fd-480e-bc7c-c29df94d3b6c@ir.shomalchat.com:2021?security=none&encryption=none&headerType=none&type=tcp#Config | 13 / 138
+vmess://eyJhZGQiOiIzNy4zMi4yNy4yMDQiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiY2hyb21lIiwiaG9zdCI6IiIsImlkIjoiZDIzMzA5OWMtMjZiYy00YWM4LTk4OGItOWI5M2ExNmM4ZDQ5IiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI4MCIsInBzIjoi2KjYsdin24wg2KfYqti12KfZhCDYr9in2KbZhduMINis2YjbjNmGINi02Yjwn5e+IHBycm9maWxlX3B1cnBsZUAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9#Config | 14 / 138
+vless://ffe756b3-a5c1-43c6-b1ef-19d216223385@star.jeyranim.ir:2053?security=none&encryption=none&headerType=none&type=tcp#Config | 15 / 138
+vless://a3bd84b3-6432-481a-8237-56431d31f320@teamlifez.ir:3000?security=none&encryption=none&headerType=none&type=tcp#Config | 16 / 138
+vless://7e6b66dc-6dbc-4d01-a13e-13d0be4f38ef@65.109.208.248:21235?security=none&encryption=none&headerType=none&type=tcp#Config | 17 / 138
+vless://21915536-afb5-4a0c-b047-fcf549d3a173@meow-frankfurt.nethcloud.top:443?security=reality&encryption=none&pbk=1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ&headerType=none&fp=chrome&type=tcp&sni=wikihow.com&sid=8bd29483ded126b4#Config | 18 / 138
+vless://4e6b23f2-932b-4a80-a280-44cdf8a86452@144.76.188.139:443?type=ws&encryption=none&path=%2F&host=&security=none#Config | 19 / 138
+vless://ba849385-a780-43a0-b4e7-6ab8a08d3824@144.76.188.140:443?type=ws&encryption=none&path=%2F&host=&security=none#Config | 20 / 138
+vless://75e13bcc-139b-4fe7-8525-548c8cfca08d@144.76.188.130:443?type=ws&encryption=none&path=%2F&host=&security=none#Config | 21 / 138
+vless://670d830d-5540-40e8-9cc8-0ef78b091cf5@str.gamepuzzlecenter.com:21760?security=none&encryption=none&headerType=none&type=tcp#Config | 22 / 138
+vless://eb39bc33-c017-4771-83a2-12e9535eb410@SofeWhite.legendperm.ir:1999?security=none&encryption=none&headerType=http&type=tcp#Config | 23 / 138
+vless://f069db6f-8fcc-467e-9237-28b68cc65aae@hi.darkhtpa.ir:23628?path=%2F&security=none&encryption=none&type=ws#Config | 24 / 138
+vless://5e2b5500-d2fb-44c1-8cec-8def7a4347c5@94.183.165.146:443?mode=gun&security=reality&encryption=none&pbk=ize-uZeKIdCj8aB2Lc9zrzQqKLLOeJ1i2klMjyGznjU&fp=firefox&type=grpc&serviceName=qwemmqwoedmqwoemdoqwmedpmqwedmpm&sni=aparat.com&sid=280fd83aff#Config | 25 / 138
+vless://c5389214-cb57-4be4-8e5f-58d0337ff244@yumyum.spacesystems.shop:20354?security=none&encryption=none&headerType=none&type=tcp#Config | 26 / 138
+vless://c3e9e6f7-b8ef-4d8a-aec3-eb6163a5345e@94.183.149.214:8880?path=%2F&security=none&encryption=none&type=ws#Config | 27 / 138
+vless://71f22eb1-96c1-4cde-a8f6-cc755ca83af7@bl.khakimilad.online:58992?security=none&encryption=none&headerType=none&type=tcp#Config | 28 / 138
+vless://f64216af-00df-4967-9fc1-a6022346fc9c@france11.parsi.sbs:15601?security=none&encryption=none&host=rubika.ir&headerType=http&type=tcp#Config | 29 / 138
+vless://9a1ba595-2e2c-4daa-a8a2-8b4a20982213@91.92.182.230:5001?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#Config | 30 / 138
+vless://c2691112-a756-862e-da3d-1e0f3846b0bb@tunn.vpsino.com:2087?security=none&encryption=none&headerType=none&type=tcp#Config | 31 / 138
+vless://a1fd994b-567a-4e1d-9e03-6af688cf479d@IR-FanAva4-AlphaOmega.AlphaOmegaVIP.IR:400?security=none&encryption=none&host=www.telewebion.ir.&headerType=none&type=tcp#Config | 32 / 138
+vless://91317a7e-c08e-4e60-9661-f97c4b2b6068@Edvard.mh.mygoldiran.com:10?path=%2Fwp-content%2Fuploads%2Fuser%2F&security=none&encryption=none&host=varzesh3.com&type=ws#Config | 33 / 138
+vless://25168a7f-05e6-45a6-acaf-e00497c19024@91.92.182.230:5001?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#Config | 34 / 138
 vmess://eyJhZGQiOiAiMTM1LjE4MS4zNS4xNjkiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiZ29vZ2xlLmNvbSIsICJpZCI6ICIyYWFjNzdkZS1iM2U0LTQwMTctODQ1Yy1jYTEzODBmMmU4ZDAiLCAiaW5zZWN1cmUiOiAiMSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvdGVsZWdyYW0taWQtQHByaXZhdGV2cG5zIiwgInBvcnQiOiAiODAiLCAicHMiOiAi4pqh77iPVGVsZWdyYW0gPSBAU09Ta2V5TkVUIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIi0tLSIsICJ2IjogIjIifQ==#Config | 35 / 138
 vless://b25fbd87-36ba-4721-8cac-578e778b42c7@ml.lerntolern.com:54108?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#Config | 36 / 138
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@15.237.89.75:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 37 / 138
