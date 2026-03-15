@@ -1,6 +1,6 @@
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#Mohammad hossein Configs | @mohammadaz2
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: دوشنبه ساعت ۰۰:۵۱
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۱۴ کانال
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: دوشنبه ساعت ۰۱:۵۰
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۱۶ کانال
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#🔄برای اپدیت کانفیگ ها سه نقطه را بفشارید و گزینه آخر را انتخاب کنید.
 <!DOCTYPE html>#EMERGENCY 🏴 | @mohammadaz2
 <html>#EMERGENCY 🏴 | @mohammadaz2
@@ -63,7 +63,7 @@ vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&secur
 </g>#EMERGENCY 🏴 | @mohammadaz2
 </svg>#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
-<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=fec97ecad7402c064f_5449361678776155126">#EMERGENCY 🏴 | @mohammadaz2
+<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=f420c2c2e66c91d317_7903969569074206913">#EMERGENCY 🏴 | @mohammadaz2
 Download#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
@@ -137,19 +137,19 @@ toggleTheme(e.matches);#EMERGENCY 🏴 | @mohammadaz2
 </script>#EMERGENCY 🏴 | @mohammadaz2
 </body>#EMERGENCY 🏴 | @mohammadaz2
 </html>#EMERGENCY 🏴 | @mohammadaz2
-<!-- page generated in 13.09ms -->#EMERGENCY 🏴 | @mohammadaz2
-vless://206b9c79-bcd3-4788-b31f-babd1d49e2cd@vs1.tarebarr.com:80?path=%2F&security=none&encryption=none&type=ws#Config | 1 / 364
-vless://f0b49383-0623-44e5-a75c-09974e9b7a20@94.101.180.154:555?security=none&encryption=none&headerType=none&type=tcp#Config | 2 / 364
-vless://f8aa1288-08a6-4a73-9589-fa63a294a89f@emg5.saipasamandemg5.sbs:2005?security=none&encryption=none&host=anten.ir&headerType=http&type=tcp#Config | 3 / 364
-vless://066bd5ca-5804-9e27-b02a-f8d9bea3abee@promax.vpsino.com:20920?security=none&encryption=none&headerType=none&type=tcp#Config | 4 / 364
-vless://06750866-200c-42c6-bd2c-80ee499b828f@haji.arezoni1.ir:666?security=none&encryption=none&headerType=none&type=tcp#Config | 5 / 364
-vmess://eyJhZGQiOiJnc212cG4uZ3NtdnguY29tIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImIxNzM0NWI5LTYyNjYtNDdmMi1hNDczLThjNTdjYmZlOWVmOSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNTAwNiIsInBzIjoiQEVzVHVubmVsIC0gUHNpcGhvbitWMnJheU5HIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==#Config | 6 / 364
-vless://4cbd1d70-1341-4e23-b2d5-64254318c783@file4.farsgame.sbs:55004?path=%2F&security=none&encryption=none&host=rubika.ir&type=ws#Config | 7 / 364
-vless://5f73a92d-c089-5b53-9b99-cd3b0432d207@mak1.vpsino.com:20493?security=none&encryption=none&headerType=none&type=tcp#Config | 8 / 364
-vless://5cc82fdd-847a-4b11-9f91-3d8f35ff9e09@farzandeiran.iransalar.top:21531?security=none&encryption=none&headerType=http&type=tcp#Config | 9 / 364
-vless://d5444762-dfd5-46f3-a2de-df271a1a16d1@master.hecad.ir:440?type=tcp&encryption=none&security=none#Config | 10 / 364
-vless://8164cdb1-5b9b-49e1-83ef-b24a5c4c3ba8@g1-de2-user.a1mshop.ir:14300?security=none&encryption=none&host=aparat.com&headerType=http&type=tcp#Config | 11 / 364
-vless://3e40ccfb-1b3a-4699-be8f-f99ac805546f@blog.vtnet.ir:80?security=none&encryption=none&headerType=none&type=tcp#Config | 12 / 364
+<!-- page generated in 14.25ms -->#EMERGENCY 🏴 | @mohammadaz2
+vless://f0b49383-0623-44e5-a75c-09974e9b7a20@94.101.180.154:555?security=none&encryption=none&headerType=none&type=tcp#Config | 1 / 364
+vless://f8aa1288-08a6-4a73-9589-fa63a294a89f@emg5.saipasamandemg5.sbs:2005?security=none&encryption=none&host=anten.ir&headerType=http&type=tcp#Config | 2 / 364
+vless://066bd5ca-5804-9e27-b02a-f8d9bea3abee@promax.vpsino.com:20920?security=none&encryption=none&headerType=none&type=tcp#Config | 3 / 364
+vless://06750866-200c-42c6-bd2c-80ee499b828f@haji.arezoni1.ir:666?security=none&encryption=none&headerType=none&type=tcp#Config | 4 / 364
+vmess://eyJhZGQiOiJnc212cG4uZ3NtdnguY29tIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImIxNzM0NWI5LTYyNjYtNDdmMi1hNDczLThjNTdjYmZlOWVmOSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNTAwNiIsInBzIjoiQEVzVHVubmVsIC0gUHNpcGhvbitWMnJheU5HIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==#Config | 5 / 364
+vless://4cbd1d70-1341-4e23-b2d5-64254318c783@file4.farsgame.sbs:55004?path=%2F&security=none&encryption=none&host=rubika.ir&type=ws#Config | 6 / 364
+vless://5f73a92d-c089-5b53-9b99-cd3b0432d207@mak1.vpsino.com:20493?security=none&encryption=none&headerType=none&type=tcp#Config | 7 / 364
+vless://5cc82fdd-847a-4b11-9f91-3d8f35ff9e09@farzandeiran.iransalar.top:21531?security=none&encryption=none&headerType=http&type=tcp#Config | 8 / 364
+vless://d5444762-dfd5-46f3-a2de-df271a1a16d1@master.hecad.ir:440?type=tcp&encryption=none&security=none#Config | 9 / 364
+vless://8164cdb1-5b9b-49e1-83ef-b24a5c4c3ba8@g1-de2-user.a1mshop.ir:14300?security=none&encryption=none&host=aparat.com&headerType=http&type=tcp#Config | 10 / 364
+vless://3e40ccfb-1b3a-4699-be8f-f99ac805546f@blog.vtnet.ir:80?security=none&encryption=none&headerType=none&type=tcp#Config | 11 / 364
+vless://206b9c79-bcd3-4788-b31f-babd1d49e2cd@vs1.tarebarr.com:80?path=%2F&security=none&encryption=none&type=ws#Config | 12 / 364
 vmess://eyJ2IjogIjIiLCAicHMiOiAi4pqh77iPVGVsZWdyYW0gPSBAU09Ta2V5TkVUIiwgImFkZCI6ICJkZmcuYWUxYXV0dW1uLmNjLmNkIiwgInBvcnQiOiAiODAiLCAiaWQiOiAiMTNhZDM2ZTYtYzA5MS00M2YyLTg1MDUtNDdkODY4ZGQ1NDRjIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJkZmcuYWUxYXV0dW1uLmNjLmNkIiwgInBhdGgiOiAiL1lzbVJvdUE5WmJ4Z1c0IiwgInRscyI6ICIiLCAic25pIjogIiIsICJhbHBuIjogIiJ9#Config | 13 / 364
 vmess://eyJhZGQiOiAiMXF3LmFlMWF1dHVtbi5jYy5jZCIsICJwb3J0IjogIjgwIiwgImlkIjogIjEzYWQzNmU2LWMwOTEtNDNmMi04NTA1LTQ3ZDg2OGRkNTQ0YyIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidiI6ICIyIiwgInBzIjogIuKaoe+4j1RlbGVncmFtID0gQFNPU2tleU5FVCIsICJob3N0IjogIjFxdy5hZTFhdXR1bW4uY2MuY2QiLCAicGF0aCI6ICIvWXNtUm91QTlaYnhnVzQiLCAidGxzIjogIiIsICJzbmkiOiAiMXF3LmFlMWF1dHVtbi5jYy5jZCIsICJ0eXBlIjogIm5vbmUiLCAic2VydmVyUG9ydCI6IDAsICJuYXRpb24iOiAiIn0=#Config | 14 / 364
 vmess://eyJhZGQiOiAidmJoLmFlMWF1dHVtbi5jYy5jZCIsICJwb3J0IjogIjgwIiwgImlkIjogIjEzYWQzNmU2LWMwOTEtNDNmMi04NTA1LTQ3ZDg2OGRkNTQ0YyIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidiI6ICIyIiwgInBzIjogIuKaoe+4j1RlbGVncmFtID0gQFNPU2tleU5FVCIsICJob3N0IjogInZiaC5hZTFhdXR1bW4uY2MuY2QiLCAicGF0aCI6ICIvWXNtUm91QTlaYnhnVzQiLCAidGxzIjogIiIsICJzbmkiOiAidmJoLmFlMWF1dHVtbi5jYy5jZCIsICJ0eXBlIjogIm5vbmUiLCAic2VydmVyUG9ydCI6IDAsICJuYXRpb24iOiAiIn0=#Config | 15 / 364
