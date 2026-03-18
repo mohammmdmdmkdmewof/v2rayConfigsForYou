@@ -1,6 +1,6 @@
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#Mohammad hossein Configs | @mohammadaz2
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: پنج‌شنبه ساعت ۰۰:۵۸
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۲۴ کانال
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: پنج‌شنبه ساعت ۰۱:۵۶
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۲۵ کانال
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#🔄برای اپدیت کانفیگ ها سه نقطه را بفشارید و گزینه آخر را انتخاب کنید.
 <!DOCTYPE html>#EMERGENCY 🏴 | @mohammadaz2
 <html>#EMERGENCY 🏴 | @mohammadaz2
@@ -63,7 +63,7 @@ vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&secur
 </g>#EMERGENCY 🏴 | @mohammadaz2
 </svg>#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
-<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=4308864c81ce53b14a_18388479421526886948">#EMERGENCY 🏴 | @mohammadaz2
+<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=004022064cbe0c78f1_15713300153377454026">#EMERGENCY 🏴 | @mohammadaz2
 Download#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
@@ -137,7 +137,7 @@ toggleTheme(e.matches);#EMERGENCY 🏴 | @mohammadaz2
 </script>#EMERGENCY 🏴 | @mohammadaz2
 </body>#EMERGENCY 🏴 | @mohammadaz2
 </html>#EMERGENCY 🏴 | @mohammadaz2
-<!-- page generated in 13.24ms -->#EMERGENCY 🏴 | @mohammadaz2
+<!-- page generated in 14.7ms -->#EMERGENCY 🏴 | @mohammadaz2
 vless://6492fd55-4ab8-4da5-bed4-83e5c3f5b178@www.goldenshopify.ir:2031?security=&encryption=none&headerType=none&type=tcp#Config | 1 / 58
 vless://00000000-0000-4000-8000-000000000000@147.45.68.252:8082?allowInsecure=1&encryption=none&host=jmc9f8ao6n5xq.saghv.filegear-sg.me&path=/@Marisa_kristi&security=tls&sni=jmc9f8ao6n5xq.saghv.filegear-sg.me&type=ws#Config | 2 / 58
 vless://ee73ff6e-af32-43df-854e-754253bd1bd8@de-2-tun-single.starping1.fun:8083/?security=&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#Config | 3 / 58
