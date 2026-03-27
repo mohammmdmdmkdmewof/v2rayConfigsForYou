@@ -1,5 +1,5 @@
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#Mohammad hossein Configs | @mohammadaz2
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: جمعه ساعت ۱۳:۱۷
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: جمعه ساعت ۱۴:۱۰
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۳۳ کانال
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#🔄برای اپدیت کانفیگ ها سه نقطه را بفشارید و گزینه آخر را انتخاب کنید.
 <!DOCTYPE html>#EMERGENCY 🏴 | @mohammadaz2
@@ -63,7 +63,7 @@ vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&secur
 </g>#EMERGENCY 🏴 | @mohammadaz2
 </svg>#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
-<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=2e9a70444b507523c1_3839807435525769083">#EMERGENCY 🏴 | @mohammadaz2
+<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=6be9bcd77a61cef3b8_15692975243101299933">#EMERGENCY 🏴 | @mohammadaz2
 Download#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
@@ -76,7 +76,7 @@ Download#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_page_title" dir="auto">#EMERGENCY 🏴 | @mohammadaz2
 <span dir="auto">Hell</span>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
-<div class="tgme_page_extra">36 members, 4 online</div>#EMERGENCY 🏴 | @mohammadaz2
+<div class="tgme_page_extra">36 members</div>#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_page_action">#EMERGENCY 🏴 | @mohammadaz2
 <a class="tgme_action_button_new shine" href="tg://join?invite=ZoR2Kg2dwddkMTQ0">Join Group</a>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
@@ -137,14 +137,14 @@ toggleTheme(e.matches);#EMERGENCY 🏴 | @mohammadaz2
 </script>#EMERGENCY 🏴 | @mohammadaz2
 </body>#EMERGENCY 🏴 | @mohammadaz2
 </html>#EMERGENCY 🏴 | @mohammadaz2
-<!-- page generated in 16.41ms -->#EMERGENCY 🏴 | @mohammadaz2
-vless://1d509c22-4e43-4067-9185-873ec5bb49da@de2.b762plus.shop:2015?security=&encryption=none&host=zula.ir&headerType=none&type=tcp#Config | 1 / 45
-vless://9c0b4941-5f45-4445-9f58-3f52cf41c137@104.64.32.87:5984/?type=tcp&encryption=none&security=none#Config | 2 / 45
-vless://13adefd5-7f1c-4caa-82c8-68f9dfdeb618@snapp.ir:80?security=none&type=ws&headerType=&path=%2F&host=dl2.avenflow.ir#Config | 3 / 45
-vless://7b85b51d-4b64-4931-854c-5130389297ab@snapp.ir:80?path=%2F&security=none&encryption=none&host=dl2.avenflow.ir&type=ws#Config | 4 / 45
-vless://1effb118-1f2d-4577-a689-20e21fb50b13@104.64.32.87:443?mode=multi&security=reality&encryption=none&pbk=LXCcjZmNLdp52SG4KRQ6n_yTjkMO9ZkxQGBf3RJ8tiM&fp=firefox&spx=%2F&type=grpc&serviceName=mci.ir&sni=www.telewebion.ir&sid=cf5415b64e15#Config | 5 / 45
-vless://ea881ca2-b34a-8b3b-133d-f9d8763cab57@cloud.vpsino.com:63822?security=none&encryption=none&headerType=none&type=tcp#Config | 6 / 45
-vless://c20fa220-f6fe-46df-84a8-55d8c2ae8146@snapp.ir:80?path=%2F&security=none&encryption=none&host=dl.avenflow.ir&type=ws#Config | 7 / 45
+<!-- page generated in 12.75ms -->#EMERGENCY 🏴 | @mohammadaz2
+vless://7b85b51d-4b64-4931-854c-5130389297ab@snapp.ir:80?path=%2F&security=none&encryption=none&host=dl2.avenflow.ir&type=ws#Config | 1 / 45
+vless://1effb118-1f2d-4577-a689-20e21fb50b13@104.64.32.87:443?mode=multi&security=reality&encryption=none&pbk=LXCcjZmNLdp52SG4KRQ6n_yTjkMO9ZkxQGBf3RJ8tiM&fp=firefox&spx=%2F&type=grpc&serviceName=mci.ir&sni=www.telewebion.ir&sid=cf5415b64e15#Config | 2 / 45
+vless://ea881ca2-b34a-8b3b-133d-f9d8763cab57@cloud.vpsino.com:63822?security=none&encryption=none&headerType=none&type=tcp#Config | 3 / 45
+vless://c20fa220-f6fe-46df-84a8-55d8c2ae8146@snapp.ir:80?path=%2F&security=none&encryption=none&host=dl.avenflow.ir&type=ws#Config | 4 / 45
+vless://1d509c22-4e43-4067-9185-873ec5bb49da@de2.b762plus.shop:2015?security=&encryption=none&host=zula.ir&headerType=none&type=tcp#Config | 5 / 45
+vless://9c0b4941-5f45-4445-9f58-3f52cf41c137@104.64.32.87:5984/?type=tcp&encryption=none&security=none#Config | 6 / 45
+vless://13adefd5-7f1c-4caa-82c8-68f9dfdeb618@snapp.ir:80?security=none&type=ws&headerType=&path=%2F&host=dl2.avenflow.ir#Config | 7 / 45
 vless://eb071647-72a6-46be-8e89-ff3d228d52f6@ae.cdn.stun.su:443?security=reality&encryption=none&pbk=xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ae.cdn.stun.su&sid=41a0b29e95aaea87#Config | 8 / 45
 vless://ed0e05af-49ab-4ea8-a39c-634855811b03@104.24.68.193:443?path=ws&security=tls&encryption=none&host=wild-grass-1917.tmpduardoolfsonerluke15.workers.dev&type=ws&sni=wild-grass-1917.tmpduardoolfsonerluke15.workers.dev#Config | 9 / 45
 vless://ee72108d-41b3-4be4-963a-13a95a4796ad@87.121.86.108:443?security=reality&encryption=none&pbk=GnyHApux-sf54vjdnYzRrdMlywEcGbaXHLCeckwpTnQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=pingless.com&sid=4d9c2e683b7f1a05#Config | 10 / 45
