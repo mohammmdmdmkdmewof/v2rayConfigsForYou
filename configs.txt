@@ -1,6 +1,6 @@
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#Mohammad hossein Configs | @mohammadaz2
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: شنبه ساعت ۱۸:۵۵
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۳۱ کانال
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: شنبه ساعت ۱۹:۵۵
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۳۲ کانال
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#🔄برای اپدیت کانفیگ ها سه نقطه را بفشارید و گزینه آخر را انتخاب کنید.
 <!DOCTYPE html>#EMERGENCY 🏴 | @mohammadaz2
 <html>#EMERGENCY 🏴 | @mohammadaz2
@@ -11,11 +11,11 @@ vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&secur
 <script>location.hash=''</script>#EMERGENCY 🏴 | @mohammadaz2
 <script>try{if(window.parent!=null&&window!=window.parent){window.parent.postMessage(JSON.stringify({eventType:'web_app_open_tg_link',eventData:{path_full:"\/+ZoR2Kg2dwddkMTQ0"}}),'https://web.telegram.org');}}catch(e){}</script>#EMERGENCY 🏴 | @mohammadaz2
 <meta property="og:title" content="Hell">#EMERGENCY 🏴 | @mohammadaz2
-<meta property="og:image" content="https://cdn4.telesco.pe/file/G3ajEIPcXSbxl0bCyaWzNo0q9oTYROZyTuMziRpyl096TvZucWiYCagSGULhGJALx1N7_kRs-aYKkq5BzkYjCXU7u_RARipEJvK0cue7Uzty_Cimn0zV0qNpElqq9bnMA-hpWlTHEfnULsGpSf1rduJOQFrcFRG3HQ565PPh-cbXgQJOE6lSE_I9RGKy49AY_nAB8EmLlA45Ka1GEJGAM_HfA68AJDzDGkdM5Db6Y9PBideJYGX5zm5M64B7X89nGwIO-eMtPE6yiap2yiMAlmL2_P4XmCdgn-i8AG0INa544KsO5psY_m4RB2EQ7GIpg-OpWvGg8oCXlu2FMFjHhw.jpg">#EMERGENCY 🏴 | @mohammadaz2
+<meta property="og:image" content="https://cdn4.telesco.pe/file/av0B1-o5jA0NenWd_9IpT0_hPrdsw209a63g7vujf5KB6lz67JOzz45oPLz79aMVE8evP-LBNmC5TpTFQqO11kln3CQ06Pr1Y_BJppG-pdlPy7MKhmUaVFXnGrTxYS8_4dpSCMenQYjSMSFr2noUEqAxXvfRiG13OOft9RhqRmWZce1Zo437vJta2hC38ZAhIrildWqSYb8dWuUisqiE1YyfMZMXghXwTj_LEtolBSTKkgnYy54EpRm16C9fi7Fx_e8uVUTjMJS5FIx7tWsjHsnKp1uJWEYRObl6F_Tyj9POllkAhnzbiGMrzvKHQruS4HycB6dp3L0KtS0sa5ZaKA.jpg">#EMERGENCY 🏴 | @mohammadaz2
 <meta property="og:site_name" content="Telegram">#EMERGENCY 🏴 | @mohammadaz2
 <meta property="og:description" content="">#EMERGENCY 🏴 | @mohammadaz2
 <meta property="twitter:title" content="Hell">#EMERGENCY 🏴 | @mohammadaz2
-<meta property="twitter:image" content="https://cdn4.telesco.pe/file/G3ajEIPcXSbxl0bCyaWzNo0q9oTYROZyTuMziRpyl096TvZucWiYCagSGULhGJALx1N7_kRs-aYKkq5BzkYjCXU7u_RARipEJvK0cue7Uzty_Cimn0zV0qNpElqq9bnMA-hpWlTHEfnULsGpSf1rduJOQFrcFRG3HQ565PPh-cbXgQJOE6lSE_I9RGKy49AY_nAB8EmLlA45Ka1GEJGAM_HfA68AJDzDGkdM5Db6Y9PBideJYGX5zm5M64B7X89nGwIO-eMtPE6yiap2yiMAlmL2_P4XmCdgn-i8AG0INa544KsO5psY_m4RB2EQ7GIpg-OpWvGg8oCXlu2FMFjHhw.jpg">#EMERGENCY 🏴 | @mohammadaz2
+<meta property="twitter:image" content="https://cdn4.telesco.pe/file/av0B1-o5jA0NenWd_9IpT0_hPrdsw209a63g7vujf5KB6lz67JOzz45oPLz79aMVE8evP-LBNmC5TpTFQqO11kln3CQ06Pr1Y_BJppG-pdlPy7MKhmUaVFXnGrTxYS8_4dpSCMenQYjSMSFr2noUEqAxXvfRiG13OOft9RhqRmWZce1Zo437vJta2hC38ZAhIrildWqSYb8dWuUisqiE1YyfMZMXghXwTj_LEtolBSTKkgnYy54EpRm16C9fi7Fx_e8uVUTjMJS5FIx7tWsjHsnKp1uJWEYRObl6F_Tyj9POllkAhnzbiGMrzvKHQruS4HycB6dp3L0KtS0sa5ZaKA.jpg">#EMERGENCY 🏴 | @mohammadaz2
 <meta property="twitter:site" content="@Telegram">#EMERGENCY 🏴 | @mohammadaz2
 <meta name="twitter:card" content="summary">#EMERGENCY 🏴 | @mohammadaz2
 <meta name="twitter:site" content="@Telegram">#EMERGENCY 🏴 | @mohammadaz2
@@ -63,7 +63,7 @@ vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&secur
 </g>#EMERGENCY 🏴 | @mohammadaz2
 </svg>#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
-<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=db6225c3d34729b3f0_18409743047506554466">#EMERGENCY 🏴 | @mohammadaz2
+<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=70e050ca70f6ebecd6_16108303935299973061">#EMERGENCY 🏴 | @mohammadaz2
 Download#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
@@ -71,7 +71,7 @@ Download#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_body_wrap">#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_page">#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_page_photo">#EMERGENCY 🏴 | @mohammadaz2
-<a href="tg://join?invite=ZoR2Kg2dwddkMTQ0"><img class="tgme_page_photo_image" src="https://cdn4.telesco.pe/file/G3ajEIPcXSbxl0bCyaWzNo0q9oTYROZyTuMziRpyl096TvZucWiYCagSGULhGJALx1N7_kRs-aYKkq5BzkYjCXU7u_RARipEJvK0cue7Uzty_Cimn0zV0qNpElqq9bnMA-hpWlTHEfnULsGpSf1rduJOQFrcFRG3HQ565PPh-cbXgQJOE6lSE_I9RGKy49AY_nAB8EmLlA45Ka1GEJGAM_HfA68AJDzDGkdM5Db6Y9PBideJYGX5zm5M64B7X89nGwIO-eMtPE6yiap2yiMAlmL2_P4XmCdgn-i8AG0INa544KsO5psY_m4RB2EQ7GIpg-OpWvGg8oCXlu2FMFjHhw.jpg"></a>#EMERGENCY 🏴 | @mohammadaz2
+<a href="tg://join?invite=ZoR2Kg2dwddkMTQ0"><img class="tgme_page_photo_image" src="https://cdn4.telesco.pe/file/av0B1-o5jA0NenWd_9IpT0_hPrdsw209a63g7vujf5KB6lz67JOzz45oPLz79aMVE8evP-LBNmC5TpTFQqO11kln3CQ06Pr1Y_BJppG-pdlPy7MKhmUaVFXnGrTxYS8_4dpSCMenQYjSMSFr2noUEqAxXvfRiG13OOft9RhqRmWZce1Zo437vJta2hC38ZAhIrildWqSYb8dWuUisqiE1YyfMZMXghXwTj_LEtolBSTKkgnYy54EpRm16C9fi7Fx_e8uVUTjMJS5FIx7tWsjHsnKp1uJWEYRObl6F_Tyj9POllkAhnzbiGMrzvKHQruS4HycB6dp3L0KtS0sa5ZaKA.jpg"></a>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_page_title" dir="auto">#EMERGENCY 🏴 | @mohammadaz2
 <span dir="auto">Hell</span>#EMERGENCY 🏴 | @mohammadaz2
@@ -137,53 +137,54 @@ toggleTheme(e.matches);#EMERGENCY 🏴 | @mohammadaz2
 </script>#EMERGENCY 🏴 | @mohammadaz2
 </body>#EMERGENCY 🏴 | @mohammadaz2
 </html>#EMERGENCY 🏴 | @mohammadaz2
-<!-- page generated in 14.22ms -->#EMERGENCY 🏴 | @mohammadaz2
-vless://d8680ca0-b97c-40cf-9726-16c362eadf88@snapp.ir:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=alfred-af5ad8949d-alfred13.apps.ir-central1.arvancaas.ir&type=ws#Config | 1 / 49
-vless://fae38aae-0342-4752-834d-@172.237.128.199:443?mode=stream-one&path=%2F&security=none&encryption=none&type=xhttp#Config | 2 / 49
-vless://d061c520-1cdb-11f1-972f-92000723b4ab@dlc-new11.persianpinggame.com:5111?security=none&encryption=none&host=myket.ir&headerType=http&type=tcp#Config | 3 / 49
-vless://bc6f9208-ba56-4678-a29c-afc8b8af9b89@77.83.245.135:34205?security=none&encryption=none&headerType=none&type=tcp#Config | 4 / 49
-vless://09e485e1-241c-4d17-82b2-0dff1be3f61e@kvm.iranhosting.mom:55003?path=%2F&security=none&encryption=none&host=rubika.ir&type=ws#Config | 5 / 49
-vless://a6eb1781-e671-4a63-ab3a-252079c69b8a@star.smile-loyal.fun:2083?security=none&encryption=none&headerType=none&type=tcp#Config | 6 / 49
-vless://8e0a63a9-e44c-42f3-8274-0cd1f282e3e7@ir.gafe-lorbad.ir:443?security=none&encryption=none&headerType=none&type=tcp#Config | 7 / 49
-vless://a4ffb383-a334-4075-b7a9-c291e51f827a@temp.myextraordinary.ir:8080?security=none&encryption=none&headerType=none&type=tcp#Config | 8 / 49
-vless://18c57018-7052-4258-bb3f-4904bc147239@vix.idcenter.top:80?security=none&encryption=none&host=vix.idcenter.top&type=ws#Config | 9 / 49
-vless://cd7a2a2a-f58f-447c-810b-450f0678771e@snapp.ir:80?path=%2F&security=none&encryption=none&host=dl2.avenflow.ir&type=ws#Config | 10 / 49
-vless://376b9861-2fc6-4647-959c-18185cd9c95a@104.31.16.36:443?path=/fflsws&security=tls&encryption=none&insecure=0&host=lmn39.sbs&type=ws&allowInsecure=0&sni=lmn39.sbs#Config | 11 / 49
-vless://73a4456a-0442-4550-8b4f-c719871a4eeb@chatgpt.com:443?security=tls&type=ws&host=011.electrocellco-cf-011.workers.dev&path=/eyJqdW5rIjoibWRiMjNWaUwxNHVWIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=?ed=2560&sni=011.electrOCELlCO-CF-011.WorKERS.dEV&fp=chrome#Config | 12 / 49
-trojan://c42a7944a4af979@n.nyav2.info:85?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=filmnet.ir#Config | 13 / 49
-vless://4e0f7ef4-4ce6-4de6-bfb9-5b831436bedf@193.58.119.134:443?security=&encryption=none&host=google.com&headerType=http&type=tcp#Config | 14 / 49
-vless://c060fdda-385d-aea1-3982-5a6c92876481@85.133.249.43:58387?security=none&encryption=none&host=arvancloud.ir&headerType=http&type=tcp#Config | 15 / 49
-vless://eef044ee-21f4-4a8a-80cb-0d2af3df34c3@dl.io-laptop.ir:8443?mode=auto&path=%3Fed%3D2048&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=dl.io-laptop.ir&fp=chrome&type=xhttp&sni=dl.io-laptop.ir#Config | 16 / 49
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@18.158.157.203:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 17 / 49
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.37.130.107:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 18 / 49
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.36.242.117:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 19 / 49
-trojan://telegram-id-privatevpns@18.158.157.203:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 20 / 49
-trojan://telegram-id-directvpn@18.158.157.203:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 21 / 49
-trojan://telegram-id-directvpn@13.37.130.107:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 22 / 49
-trojan://telegram-id-privatevpns@13.37.130.107:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 23 / 49
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@52.47.80.167:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 24 / 49
-vless://a1d9eaf5-9e03-4c67-af0b-e238b865b373@185.143.234.122:80?security=none&type=ws&headerType=&path=%2F&host=amm4.avenflow.ir#Config | 25 / 49
-vless://slaBIilo5hnqhDDqEJLNxq@194.61.120.154:443?type=tcp&security=none&headerType=http&host=googletagmanager.com&path=%2F#Config | 26 / 49
-vless://0a4c5a85-7089-446d-a817-26212ff67ed6@vix.nsa03.com:9000?security=none&encryption=none&headerType=none&type=tcp#Config | 27 / 49
-vless://22753114-c3cb-4613-9f2d-759a871489f7@ir.gafe-lorbad.ir:443?security=none&encryption=none&headerType=none&type=tcp#Config | 28 / 49
-vless://c40b7ec6-6440-4f81-a8f3-9357067807b9@81.12.54.14:1010?encryption=none&type=tcp&headerType=config_free332525D8%2525AA%2525D9%252584%2525DA%2525AF%2525D8%2525B1%2525D8%2525A7%2525D9%252585#Config | 29 / 49
-vless://da742864-5c8a-4e73-8111-2e9b66395504@2.188.227.168:43000/?type=tcp&security=none#Config | 30 / 49
-trojan://telegram-id-privatevpns@52.47.80.167:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 31 / 49
-vless://d29cf368-c2d3-4d72-bbc0-cb4588039226@185.143.234.122:80?path=%2F&security=&encryption=none&host=dl.koremusic.ir&type=ws#Config | 32 / 49
-vless://1d3774f9-76d2-45bb-8a8a-2ad79aee03d6@arvancloud.ir:443?path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=0&host=ai.faloweram.ir&fp=chrome&type=ws&allowInsecure=0&sni=ai.faloweram.ir#Config | 33 / 49
-vless://1fd68938-2120-418b-a1ec-6058ab7d55d1@104.105.21.164:443/?type=grpc&encryption=none&serviceName=&authority=&mode=multi&security=reality&pbk=0eUOkHYO_iijd1ZZd95qSmPuhXPKgevrcwbfPxnmj1g&fp=firefox&sni=www.telewebion.ir&sid=a891cd8147&spx=%2F#Config | 34 / 49
-vless://5238a315-4427-4915-a1de-4978e3029a1c@104.17.147.22:2096?path=%2FeyJqdW5rIjoiZjBrTGJtaWQ2MSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0&security=tls&encryption=none&host=long-mode-2783.sepna114.workers.dev&type=ws&sni=loNg-modE-2783.SEpna114.WOrkERs.dEV#Config | 35 / 49
-vless://84e65d85-cd6b-48c8-ad80-255b3dea4a9d@ir.sjdpictures.ir:19305?encryption=none&security=none&type=tcp&headerType=http&host=telewebion.ir#Config | 36 / 49
-vless://c5f28348-2cd8-4e98-a819-2d5cbc6b9e53@voip9.divar.mom:55009?security=reality&encryption=none&pbk=vxdmULi_cO7dha2aQnsjSViARO15hvI9HWyo0pVPlkQ&headerType=none&fp=chrome&type=tcp&sni=www.digikala.com&sid=c385#Config | 37 / 49
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@63.183.59.137:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 38 / 49
-trojan://telegram-id-privatevpns@63.183.59.137:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 39 / 49
-trojan://telegram-id-directvpn@63.183.59.137:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 40 / 49
-trojan://telegram-id-directvpn@52.47.80.167:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 41 / 49
-vless://13050079-6b9e-4c4e-a3b7-eedc945003ea@185.143.233.200:443?path=%2F%3Fed%3D443&security=tls&encryption=none&host=alef.ir.oadeflantrogm.abrirmahan.com&fp=randomized&type=ws&sni=alef.ir.oadeflantrogm.abrirmahan.com#Config | 42 / 49
-vless://47da4ff9-ae0c-47cc-8b6c-f72ca16649d3@us.dianalux.ir:8080?path=%2F%3Fed%3D2048&security=none&encryption=none&host=fast.com&type=ws#Config | 43 / 49
-vless://1b1073b2-de44-463e-ab17-56e74f053ad9@t11.iranwiki.mom:55011?type=tcp&security=reality&fp=chrome&pbk=vxdmULi_cO7dha2aQnsjSViARO15hvI9HWyo0pVPlkQ&sni=www.numberland.ir&sid=c385#Config | 44 / 49
-vless://b8ab59b3-c7f5-42c4-8e09-d0ccaf259c9d@STAR.SPEED.mygoldiran.com:80?path=%2Fwp-content%2Fuploads%2Fuser%2F&security=none&encryption=none&type=ws#Config | 45 / 49
-vless://7e7a4ad3-4b94-47e7-b692-b77f94fc25f9@Rose8.lhpuniversity.online:41488?security=&encryption=none&host=aparat.com&headerType=http&type=tcp#Config | 46 / 49
-vless://c20fa220-f6fe-46df-84a8-55d8c2ae8146@snapp.ir:80?path=%2F&security=none&encryption=none&host=dl2.avenflow.ir&type=ws#Config | 47 / 49
-vless://4c003bc1-6e72-40d4-8b9b-0e814e315336@snapp.doctor:80?path=%2F&security=none&encryption=none&host=shop2.plusself.ir&type=ws#Config | 48 / 49
-vless://1fd0b112-83da-499c-8df1-d6d2ec941dab@shop.webchipro2.ir:7777?security=none&allowInsecure=0&encryption=none&type=tcp&headerType=none#Config | 49 / 49
+<!-- page generated in 15.51ms -->#EMERGENCY 🏴 | @mohammadaz2
+vless://1a4677fe-6fd4-456c-8cfd-d0ee9542c288@test.pixsdo.ir:80?path=%2F&security=none&encryption=none&type=ws#Config | 1 / 50
+vless://d8680ca0-b97c-40cf-9726-16c362eadf88@snapp.ir:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=alfred-af5ad8949d-alfred13.apps.ir-central1.arvancaas.ir&type=ws#Config | 2 / 50
+vless://fae38aae-0342-4752-834d-@172.237.128.199:443?mode=stream-one&path=%2F&security=none&encryption=none&type=xhttp#Config | 3 / 50
+vless://d061c520-1cdb-11f1-972f-92000723b4ab@dlc-new11.persianpinggame.com:5111?security=none&encryption=none&host=myket.ir&headerType=http&type=tcp#Config | 4 / 50
+vless://bc6f9208-ba56-4678-a29c-afc8b8af9b89@77.83.245.135:34205?security=none&encryption=none&headerType=none&type=tcp#Config | 5 / 50
+vless://09e485e1-241c-4d17-82b2-0dff1be3f61e@kvm.iranhosting.mom:55003?path=%2F&security=none&encryption=none&host=rubika.ir&type=ws#Config | 6 / 50
+vless://a6eb1781-e671-4a63-ab3a-252079c69b8a@star.smile-loyal.fun:2083?security=none&encryption=none&headerType=none&type=tcp#Config | 7 / 50
+vless://8e0a63a9-e44c-42f3-8274-0cd1f282e3e7@ir.gafe-lorbad.ir:443?security=none&encryption=none&headerType=none&type=tcp#Config | 8 / 50
+vless://a4ffb383-a334-4075-b7a9-c291e51f827a@temp.myextraordinary.ir:8080?security=none&encryption=none&headerType=none&type=tcp#Config | 9 / 50
+vless://18c57018-7052-4258-bb3f-4904bc147239@vix.idcenter.top:80?security=none&encryption=none&host=vix.idcenter.top&type=ws#Config | 10 / 50
+vless://cd7a2a2a-f58f-447c-810b-450f0678771e@snapp.ir:80?path=%2F&security=none&encryption=none&host=dl2.avenflow.ir&type=ws#Config | 11 / 50
+vless://376b9861-2fc6-4647-959c-18185cd9c95a@104.31.16.36:443?path=/fflsws&security=tls&encryption=none&insecure=0&host=lmn39.sbs&type=ws&allowInsecure=0&sni=lmn39.sbs#Config | 12 / 50
+vless://73a4456a-0442-4550-8b4f-c719871a4eeb@chatgpt.com:443?security=tls&type=ws&host=011.electrocellco-cf-011.workers.dev&path=/eyJqdW5rIjoibWRiMjNWaUwxNHVWIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=?ed=2560&sni=011.electrOCELlCO-CF-011.WorKERS.dEV&fp=chrome#Config | 13 / 50
+trojan://c42a7944a4af979@n.nyav2.info:85?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=filmnet.ir#Config | 14 / 50
+vless://4e0f7ef4-4ce6-4de6-bfb9-5b831436bedf@193.58.119.134:443?security=&encryption=none&host=google.com&headerType=http&type=tcp#Config | 15 / 50
+vless://c060fdda-385d-aea1-3982-5a6c92876481@85.133.249.43:58387?security=none&encryption=none&host=arvancloud.ir&headerType=http&type=tcp#Config | 16 / 50
+vless://eef044ee-21f4-4a8a-80cb-0d2af3df34c3@dl.io-laptop.ir:8443?mode=auto&path=%3Fed%3D2048&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=dl.io-laptop.ir&fp=chrome&type=xhttp&sni=dl.io-laptop.ir#Config | 17 / 50
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@18.158.157.203:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 18 / 50
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.37.130.107:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 19 / 50
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.36.242.117:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 20 / 50
+trojan://telegram-id-privatevpns@18.158.157.203:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 21 / 50
+trojan://telegram-id-directvpn@18.158.157.203:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 22 / 50
+trojan://telegram-id-directvpn@13.37.130.107:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 23 / 50
+trojan://telegram-id-privatevpns@13.37.130.107:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 24 / 50
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@52.47.80.167:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 25 / 50
+vless://a1d9eaf5-9e03-4c67-af0b-e238b865b373@185.143.234.122:80?security=none&type=ws&headerType=&path=%2F&host=amm4.avenflow.ir#Config | 26 / 50
+vless://slaBIilo5hnqhDDqEJLNxq@194.61.120.154:443?type=tcp&security=none&headerType=http&host=googletagmanager.com&path=%2F#Config | 27 / 50
+vless://0a4c5a85-7089-446d-a817-26212ff67ed6@vix.nsa03.com:9000?security=none&encryption=none&headerType=none&type=tcp#Config | 28 / 50
+vless://22753114-c3cb-4613-9f2d-759a871489f7@ir.gafe-lorbad.ir:443?security=none&encryption=none&headerType=none&type=tcp#Config | 29 / 50
+vless://c40b7ec6-6440-4f81-a8f3-9357067807b9@81.12.54.14:1010?encryption=none&type=tcp&headerType=config_free332525D8%2525AA%2525D9%252584%2525DA%2525AF%2525D8%2525B1%2525D8%2525A7%2525D9%252585#Config | 30 / 50
+vless://da742864-5c8a-4e73-8111-2e9b66395504@2.188.227.168:43000/?type=tcp&security=none#Config | 31 / 50
+trojan://telegram-id-privatevpns@52.47.80.167:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 32 / 50
+vless://d29cf368-c2d3-4d72-bbc0-cb4588039226@185.143.234.122:80?path=%2F&security=&encryption=none&host=dl.koremusic.ir&type=ws#Config | 33 / 50
+vless://1d3774f9-76d2-45bb-8a8a-2ad79aee03d6@arvancloud.ir:443?path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=0&host=ai.faloweram.ir&fp=chrome&type=ws&allowInsecure=0&sni=ai.faloweram.ir#Config | 34 / 50
+vless://1fd68938-2120-418b-a1ec-6058ab7d55d1@104.105.21.164:443/?type=grpc&encryption=none&serviceName=&authority=&mode=multi&security=reality&pbk=0eUOkHYO_iijd1ZZd95qSmPuhXPKgevrcwbfPxnmj1g&fp=firefox&sni=www.telewebion.ir&sid=a891cd8147&spx=%2F#Config | 35 / 50
+vless://5238a315-4427-4915-a1de-4978e3029a1c@104.17.147.22:2096?path=%2FeyJqdW5rIjoiZjBrTGJtaWQ2MSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0&security=tls&encryption=none&host=long-mode-2783.sepna114.workers.dev&type=ws&sni=loNg-modE-2783.SEpna114.WOrkERs.dEV#Config | 36 / 50
+vless://84e65d85-cd6b-48c8-ad80-255b3dea4a9d@ir.sjdpictures.ir:19305?encryption=none&security=none&type=tcp&headerType=http&host=telewebion.ir#Config | 37 / 50
+vless://c5f28348-2cd8-4e98-a819-2d5cbc6b9e53@voip9.divar.mom:55009?security=reality&encryption=none&pbk=vxdmULi_cO7dha2aQnsjSViARO15hvI9HWyo0pVPlkQ&headerType=none&fp=chrome&type=tcp&sni=www.digikala.com&sid=c385#Config | 38 / 50
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@63.183.59.137:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 39 / 50
+trojan://telegram-id-privatevpns@63.183.59.137:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 40 / 50
+trojan://telegram-id-directvpn@63.183.59.137:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 41 / 50
+trojan://telegram-id-directvpn@52.47.80.167:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 42 / 50
+vless://13050079-6b9e-4c4e-a3b7-eedc945003ea@185.143.233.200:443?path=%2F%3Fed%3D443&security=tls&encryption=none&host=alef.ir.oadeflantrogm.abrirmahan.com&fp=randomized&type=ws&sni=alef.ir.oadeflantrogm.abrirmahan.com#Config | 43 / 50
+vless://47da4ff9-ae0c-47cc-8b6c-f72ca16649d3@us.dianalux.ir:8080?path=%2F%3Fed%3D2048&security=none&encryption=none&host=fast.com&type=ws#Config | 44 / 50
+vless://1b1073b2-de44-463e-ab17-56e74f053ad9@t11.iranwiki.mom:55011?type=tcp&security=reality&fp=chrome&pbk=vxdmULi_cO7dha2aQnsjSViARO15hvI9HWyo0pVPlkQ&sni=www.numberland.ir&sid=c385#Config | 45 / 50
+vless://b8ab59b3-c7f5-42c4-8e09-d0ccaf259c9d@STAR.SPEED.mygoldiran.com:80?path=%2Fwp-content%2Fuploads%2Fuser%2F&security=none&encryption=none&type=ws#Config | 46 / 50
+vless://7e7a4ad3-4b94-47e7-b692-b77f94fc25f9@Rose8.lhpuniversity.online:41488?security=&encryption=none&host=aparat.com&headerType=http&type=tcp#Config | 47 / 50
+vless://c20fa220-f6fe-46df-84a8-55d8c2ae8146@snapp.ir:80?path=%2F&security=none&encryption=none&host=dl2.avenflow.ir&type=ws#Config | 48 / 50
+vless://4c003bc1-6e72-40d4-8b9b-0e814e315336@snapp.doctor:80?path=%2F&security=none&encryption=none&host=shop2.plusself.ir&type=ws#Config | 49 / 50
+vless://1fd0b112-83da-499c-8df1-d6d2ec941dab@shop.webchipro2.ir:7777?security=none&allowInsecure=0&encryption=none&type=tcp&headerType=none#Config | 50 / 50
