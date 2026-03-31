@@ -1,5 +1,5 @@
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#Mohammad hossein Configs | @mohammadaz2
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: سه‌شنبه ساعت ۰۸:۰۱
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: سه‌شنبه ساعت ۰۹:۴۲
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۳۱ کانال
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#🔄برای اپدیت کانفیگ ها سه نقطه را بفشارید و گزینه آخر را انتخاب کنید.
 <!DOCTYPE html>#EMERGENCY 🏴 | @mohammadaz2
@@ -63,7 +63,7 @@ vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&secur
 </g>#EMERGENCY 🏴 | @mohammadaz2
 </svg>#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
-<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=d3357fb557fe6e2d79_9895576342123381372">#EMERGENCY 🏴 | @mohammadaz2
+<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=6c1a1069c1e977467e_11258442739772122041">#EMERGENCY 🏴 | @mohammadaz2
 Download#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
@@ -137,7 +137,7 @@ toggleTheme(e.matches);#EMERGENCY 🏴 | @mohammadaz2
 </script>#EMERGENCY 🏴 | @mohammadaz2
 </body>#EMERGENCY 🏴 | @mohammadaz2
 </html>#EMERGENCY 🏴 | @mohammadaz2
-<!-- page generated in 30.01ms -->#EMERGENCY 🏴 | @mohammadaz2
+<!-- page generated in 13.84ms -->#EMERGENCY 🏴 | @mohammadaz2
 vmess://eyJhZGQiOiJtZWwudXNkdGJhbWEuY29tIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjM5N2JhMGQ0LWQ5ZjQtNDZmNC1iOGFmLTA2M2ZiZDVmMzVmZCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiODQ0MyIsInBzIjoi2KzYudmB2LEiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9#Config | 1 / 147
 vmess://eyJpZCI6ImUxZDI0OTA2LTA4MDMtNGVjOC1hYjk0LWUzZGE1YmE5OTQxNyIsInRscyI6Im5vbmUiLCJmcmFnbWVudCI6IiIsInNuaSI6IiIsInR5cGUiOiJub25lIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsImhvc3QiOiIiLCJ2IjoiMiIsInBvcnQiOiI4NDQzIiwicGF0aCI6IiIsImFscG4iOiIiLCJzZWVkIjoiIiwibW9kZSI6IiIsImV4dHJhIjoiIiwiYWRkIjoibWVsLnVzZHRiYW1hLmNvbSIsImRldmljZUlEIjoiIiwicHMiOiJzYW1pbmlzdGFtbSIsImhlYWRlclR5cGUiOiJub25lIiwic2VydmljZU5hbWUiOiJub25lIiwiZnAiOiIifQ==#Config | 2 / 147
 vmess://eyJhZGQiOiJtZWwudXNkdGJhbWEuY29tIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImZkYzNhMTMzLTdmMjMtNDNjYi1hOGZkLTA1ODM2MzUwZjg3OSIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiODQ0MyIsInBzIjoiQGNyYXlpbmdyb29tINiq2YTar9ix2KfZhdmF2YjZhiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=#Config | 3 / 147
