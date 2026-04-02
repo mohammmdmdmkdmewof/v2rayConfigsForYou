@@ -1,5 +1,5 @@
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#Mohammad hossein Configs | @mohammadaz2
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: پنج‌شنبه ساعت ۰۷:۵۴
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: پنج‌شنبه ساعت ۰۹:۳۸
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۳۴ کانال
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#🔄برای اپدیت کانفیگ ها سه نقطه را بفشارید و گزینه آخر را انتخاب کنید.
 <!DOCTYPE html>#EMERGENCY 🏴 | @mohammadaz2
@@ -63,7 +63,7 @@ vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&secur
 </g>#EMERGENCY 🏴 | @mohammadaz2
 </svg>#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
-<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=136ee844ad3c74499e_867012067679437665">#EMERGENCY 🏴 | @mohammadaz2
+<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=e746001eee0e249cce_8834546139313348052">#EMERGENCY 🏴 | @mohammadaz2
 Download#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
@@ -137,7 +137,7 @@ toggleTheme(e.matches);#EMERGENCY 🏴 | @mohammadaz2
 </script>#EMERGENCY 🏴 | @mohammadaz2
 </body>#EMERGENCY 🏴 | @mohammadaz2
 </html>#EMERGENCY 🏴 | @mohammadaz2
-<!-- page generated in 14.99ms -->#EMERGENCY 🏴 | @mohammadaz2
+<!-- page generated in 14.04ms -->#EMERGENCY 🏴 | @mohammadaz2
 vless://064063b8-76be-40b2-8db5-445548d948a7@chatgpt.com:443?path=%2Fws&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=cloud.server-dev2.ir&fp=chrome&type=ws&allowInsecure=1#Config | 1 / 165
 vless://89ad6386-0608-4ba4-b4b1-67070bbb7def@chatgpt.com:2095?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=cloudflla.mahkocholo.com&fp=chrome&type=ws&sni=cloudflla.mahkocholo.com#Config | 2 / 165
 vless://109c3923-1d94-42b2-aff0-ea8118a6ee72@185.252.86.24:2079?encryption=none&type=tcp&security=none#Config | 3 / 165
