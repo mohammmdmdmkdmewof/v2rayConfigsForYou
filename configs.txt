@@ -1,5 +1,5 @@
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#Mohammad hossein Configs | @mohammadaz2
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: جمعه ساعت ۲۳:۵۹
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: شنبه ساعت ۰۰:۵۷
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۳۵ کانال
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#🔄برای اپدیت کانفیگ ها سه نقطه را بفشارید و گزینه آخر را انتخاب کنید.
 <!DOCTYPE html>#EMERGENCY 🏴 | @mohammadaz2
@@ -63,7 +63,7 @@ vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&secur
 </g>#EMERGENCY 🏴 | @mohammadaz2
 </svg>#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
-<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=a31cd1856bd1f26d54_8381201381216509613">#EMERGENCY 🏴 | @mohammadaz2
+<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=422b5a870550323e60_13637429667250619494">#EMERGENCY 🏴 | @mohammadaz2
 Download#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
@@ -76,7 +76,7 @@ Download#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_page_title" dir="auto">#EMERGENCY 🏴 | @mohammadaz2
 <span dir="auto">Hell</span>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
-<div class="tgme_page_extra">36 members, 3 online</div>#EMERGENCY 🏴 | @mohammadaz2
+<div class="tgme_page_extra">36 members</div>#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_page_action">#EMERGENCY 🏴 | @mohammadaz2
 <a class="tgme_action_button_new shine" href="tg://join?invite=ZoR2Kg2dwddkMTQ0">Join Group</a>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
@@ -137,7 +137,7 @@ toggleTheme(e.matches);#EMERGENCY 🏴 | @mohammadaz2
 </script>#EMERGENCY 🏴 | @mohammadaz2
 </body>#EMERGENCY 🏴 | @mohammadaz2
 </html>#EMERGENCY 🏴 | @mohammadaz2
-<!-- page generated in 11.31ms -->#EMERGENCY 🏴 | @mohammadaz2
+<!-- page generated in 10.04ms -->#EMERGENCY 🏴 | @mohammadaz2
 vless://ad84d811-1fca-41a1-9ce4-a85e5120c854@kamk-ir.mclstariran.fun:9090?security=&encryption=none&host=www.speedtest.com&headerType=http&type=tcp#Config | 1 / 161
 vless://19209d63-4733-4978-a9fe-a341ee4b4a88@snapp.ir:80?encryption=none&security=none&fp=chrome&type=ws&host=m1.y101.ir&path=%2Fir#Config | 2 / 161
 vless://22446a46-6d16-4b0b-97d2-bd5bb89aa900@ww.boldtest.ir:8880?path=%2F&security=none&encryption=none&type=ws#Config | 3 / 161
