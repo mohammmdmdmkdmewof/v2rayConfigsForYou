@@ -1,5 +1,5 @@
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#Mohammad hossein Configs | @mohammadaz2
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: سه‌شنبه ساعت ۰۷:۵۸
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: سه‌شنبه ساعت ۰۹:۴۵
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۳۳ کانال
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#🔄برای اپدیت کانفیگ ها سه نقطه را بفشارید و گزینه آخر را انتخاب کنید.
 <!DOCTYPE html>#EMERGENCY 🏴 | @mohammadaz2
@@ -11,11 +11,11 @@ vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&secur
 <script>location.hash=''</script>#EMERGENCY 🏴 | @mohammadaz2
 <script>try{if(window.parent!=null&&window!=window.parent){window.parent.postMessage(JSON.stringify({eventType:'web_app_open_tg_link',eventData:{path_full:"\/+ZoR2Kg2dwddkMTQ0"}}),'https://web.telegram.org');}}catch(e){}</script>#EMERGENCY 🏴 | @mohammadaz2
 <meta property="og:title" content="Hell">#EMERGENCY 🏴 | @mohammadaz2
-<meta property="og:image" content="https://cdn4.telesco.pe/file/TMkTUBD__R7TheXmynuXJ4JgI_Aq2mHRlc3sbRXF0cMMBh89QE0FBhxDhUWSXi-Gj-KC2sRFJlsXaxxmSKNfk9R5e50kvAHLiGAoaGWByrg587xOcArlKD5U7_v6YwOkJzTR-MlOFUx41fKwK2dYOrnOMBErkAJlxLgWo7ScXu3OPxRRZL7_eNYBO6YJRSXZQ-mBUSxec6irCv1kxLfXVE-BHxLh50brQZ5PK16gPAep4EShWpng8Mb2eUToLl2jEVEK6lRtibjFfKcCAHe9SY8cYRDA2pBWPCsaYvkRMemrF3EGj7YeUF152MJrYmMggtJ33y5AGss0YkJLE6XyiQ.jpg">#EMERGENCY 🏴 | @mohammadaz2
+<meta property="og:image" content="https://cdn4.telesco.pe/file/cUxzR3vBFJtLCojk4YwcFWYa3FTs10dXnBBrac4ZX6xz5xEN-TZwGTsRgLzh0o-CSVvOzHPLJ4Hx7T4c_NLjx-BuZ4Lg1-ZlepayWjnnLNy13AMVVdXIu4gl5WiMdCbyAxcE5BWk6o0JCrYwXoan-Bv7rSXZxs7dVZdBJbm6vZ1TJamQHVtdhhve94K8YMn3MVKmhWRKuVQFMI-aGrsQwoKkUbjCxhcKEdGBzkiS3_yDAbcfuaTbOFbQ7xJIjxaLVX_bxQ7YGsZ_yLlNpKylsDCzRuhNEda9Tj2YGxNuSmrMZ-qUvMk_JSPTaZW3NcqMQ3kBVX8vWp2y1PsXdgSiwA.jpg">#EMERGENCY 🏴 | @mohammadaz2
 <meta property="og:site_name" content="Telegram">#EMERGENCY 🏴 | @mohammadaz2
 <meta property="og:description" content="">#EMERGENCY 🏴 | @mohammadaz2
 <meta property="twitter:title" content="Hell">#EMERGENCY 🏴 | @mohammadaz2
-<meta property="twitter:image" content="https://cdn4.telesco.pe/file/TMkTUBD__R7TheXmynuXJ4JgI_Aq2mHRlc3sbRXF0cMMBh89QE0FBhxDhUWSXi-Gj-KC2sRFJlsXaxxmSKNfk9R5e50kvAHLiGAoaGWByrg587xOcArlKD5U7_v6YwOkJzTR-MlOFUx41fKwK2dYOrnOMBErkAJlxLgWo7ScXu3OPxRRZL7_eNYBO6YJRSXZQ-mBUSxec6irCv1kxLfXVE-BHxLh50brQZ5PK16gPAep4EShWpng8Mb2eUToLl2jEVEK6lRtibjFfKcCAHe9SY8cYRDA2pBWPCsaYvkRMemrF3EGj7YeUF152MJrYmMggtJ33y5AGss0YkJLE6XyiQ.jpg">#EMERGENCY 🏴 | @mohammadaz2
+<meta property="twitter:image" content="https://cdn4.telesco.pe/file/cUxzR3vBFJtLCojk4YwcFWYa3FTs10dXnBBrac4ZX6xz5xEN-TZwGTsRgLzh0o-CSVvOzHPLJ4Hx7T4c_NLjx-BuZ4Lg1-ZlepayWjnnLNy13AMVVdXIu4gl5WiMdCbyAxcE5BWk6o0JCrYwXoan-Bv7rSXZxs7dVZdBJbm6vZ1TJamQHVtdhhve94K8YMn3MVKmhWRKuVQFMI-aGrsQwoKkUbjCxhcKEdGBzkiS3_yDAbcfuaTbOFbQ7xJIjxaLVX_bxQ7YGsZ_yLlNpKylsDCzRuhNEda9Tj2YGxNuSmrMZ-qUvMk_JSPTaZW3NcqMQ3kBVX8vWp2y1PsXdgSiwA.jpg">#EMERGENCY 🏴 | @mohammadaz2
 <meta property="twitter:site" content="@Telegram">#EMERGENCY 🏴 | @mohammadaz2
 <meta name="twitter:card" content="summary">#EMERGENCY 🏴 | @mohammadaz2
 <meta name="twitter:site" content="@Telegram">#EMERGENCY 🏴 | @mohammadaz2
@@ -63,7 +63,7 @@ vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&secur
 </g>#EMERGENCY 🏴 | @mohammadaz2
 </svg>#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
-<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=a879d26576479bb713_13993555688460772541">#EMERGENCY 🏴 | @mohammadaz2
+<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=5cdb577872d8a31ab0_801977160723143877">#EMERGENCY 🏴 | @mohammadaz2
 Download#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
@@ -71,7 +71,7 @@ Download#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_body_wrap">#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_page">#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_page_photo">#EMERGENCY 🏴 | @mohammadaz2
-<a href="tg://join?invite=ZoR2Kg2dwddkMTQ0"><img class="tgme_page_photo_image" src="https://cdn4.telesco.pe/file/TMkTUBD__R7TheXmynuXJ4JgI_Aq2mHRlc3sbRXF0cMMBh89QE0FBhxDhUWSXi-Gj-KC2sRFJlsXaxxmSKNfk9R5e50kvAHLiGAoaGWByrg587xOcArlKD5U7_v6YwOkJzTR-MlOFUx41fKwK2dYOrnOMBErkAJlxLgWo7ScXu3OPxRRZL7_eNYBO6YJRSXZQ-mBUSxec6irCv1kxLfXVE-BHxLh50brQZ5PK16gPAep4EShWpng8Mb2eUToLl2jEVEK6lRtibjFfKcCAHe9SY8cYRDA2pBWPCsaYvkRMemrF3EGj7YeUF152MJrYmMggtJ33y5AGss0YkJLE6XyiQ.jpg"></a>#EMERGENCY 🏴 | @mohammadaz2
+<a href="tg://join?invite=ZoR2Kg2dwddkMTQ0"><img class="tgme_page_photo_image" src="https://cdn4.telesco.pe/file/cUxzR3vBFJtLCojk4YwcFWYa3FTs10dXnBBrac4ZX6xz5xEN-TZwGTsRgLzh0o-CSVvOzHPLJ4Hx7T4c_NLjx-BuZ4Lg1-ZlepayWjnnLNy13AMVVdXIu4gl5WiMdCbyAxcE5BWk6o0JCrYwXoan-Bv7rSXZxs7dVZdBJbm6vZ1TJamQHVtdhhve94K8YMn3MVKmhWRKuVQFMI-aGrsQwoKkUbjCxhcKEdGBzkiS3_yDAbcfuaTbOFbQ7xJIjxaLVX_bxQ7YGsZ_yLlNpKylsDCzRuhNEda9Tj2YGxNuSmrMZ-qUvMk_JSPTaZW3NcqMQ3kBVX8vWp2y1PsXdgSiwA.jpg"></a>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_page_title" dir="auto">#EMERGENCY 🏴 | @mohammadaz2
 <span dir="auto">Hell</span>#EMERGENCY 🏴 | @mohammadaz2
@@ -137,7 +137,7 @@ toggleTheme(e.matches);#EMERGENCY 🏴 | @mohammadaz2
 </script>#EMERGENCY 🏴 | @mohammadaz2
 </body>#EMERGENCY 🏴 | @mohammadaz2
 </html>#EMERGENCY 🏴 | @mohammadaz2
-<!-- page generated in 13.9ms -->#EMERGENCY 🏴 | @mohammadaz2
+<!-- page generated in 24.61ms -->#EMERGENCY 🏴 | @mohammadaz2
 vless://dbffbd74-59db-46a3-942c-e8f543e36914@188.121.125.121:2000?security=&encryption=none&headerType=none&type=tcp#Config | 1 / 108
 vless://f08fd73b-6ec6-4bc5-80ec-34d3fa6cc6d5@1.9.reflecion.shop:35116?security=none&encryption=none&headerType=none&type=tcp#Config | 2 / 108
 vless://3834a069-a71f-410d-b8f5-0bc68652eb37@vip.masterdadeh.ir:80?path=%2F&security=none&encryption=none&type=ws#Config | 3 / 108
