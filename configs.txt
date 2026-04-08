@@ -1,6 +1,6 @@
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#Mohammad hossein Configs | @mohammadaz2
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: چهارشنبه ساعت ۱۶:۳۶
-vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۳۴ کانال
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📅 آخرین آپدیت: چهارشنبه ساعت ۱۸:۳۴
+vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#📊 جمع آوری شده از ۳۵ کانال
 vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&security=none&type=tcp#🔄برای اپدیت کانفیگ ها سه نقطه را بفشارید و گزینه آخر را انتخاب کنید.
 <!DOCTYPE html>#EMERGENCY 🏴 | @mohammadaz2
 <html>#EMERGENCY 🏴 | @mohammadaz2
@@ -11,11 +11,11 @@ vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&secur
 <script>location.hash=''</script>#EMERGENCY 🏴 | @mohammadaz2
 <script>try{if(window.parent!=null&&window!=window.parent){window.parent.postMessage(JSON.stringify({eventType:'web_app_open_tg_link',eventData:{path_full:"\/+ZoR2Kg2dwddkMTQ0"}}),'https://web.telegram.org');}}catch(e){}</script>#EMERGENCY 🏴 | @mohammadaz2
 <meta property="og:title" content="Hell">#EMERGENCY 🏴 | @mohammadaz2
-<meta property="og:image" content="https://cdn4.telesco.pe/file/XCxxU3UgryNr_yqjxyExUrx0AbOQ7tWs2ZNf_KXB3VRQOrToTyM0iwgc1pB3oyQABJj-BX1hZDdcB3PPAM8biz4LLkkMH_DZN3ZHdYcnp33W1FwOMT2kdU8Rqgx6JP4dW9WCEoW9i-PrwnLobjAU_yCGt4eD-U9p7A8n7mDZzy9ht2T928CwGH1B8U-O2_PNZ0kkvTyi-8CJBY_YpicT49yaUp9WnZeOrcctwSQpF73CUtuXDgi4eL0gKRBMfGKypRgwpGzV6G6Y6Y6JvNiVkwlnHdcE1mJvG59Y6Ah0DrbDgkFRlxer90aOSX-ziyUCaME8t0C_Xn1J8td1q-sXDA.jpg">#EMERGENCY 🏴 | @mohammadaz2
+<meta property="og:image" content="https://cdn4.telesco.pe/file/Er1JP90XiyCHjybvQ49Ne6W-5q6btIuzkziWuoL8gVHJM8w8NbCnN5njZ8DGHOppi6FnHlo2K1g3Q48B0rVA-AQrFmbZRwmwFpOD3_kecfkMB03emqsn5fgTEUZ-KlNfkv7vu2TvqvvyC6BLLHlJFoCzKl3D312ywDZSpuuj3BFMyNJw6pzzAMdYKG469ClwZb50cTuzNBADA7buYRYlGushqFIYmPr3I9zCu1oqQH1DpmQaMLBj0iX9qgqbpkbadsVUC23iFdK2cuWe7FGjpnHKQ_HBd_zTOPTVgD3kplADl0PcdLIBXYQq2kwCvyt_jYBJ9OAs1rcuJmrXJUNwrQ.jpg">#EMERGENCY 🏴 | @mohammadaz2
 <meta property="og:site_name" content="Telegram">#EMERGENCY 🏴 | @mohammadaz2
 <meta property="og:description" content="">#EMERGENCY 🏴 | @mohammadaz2
 <meta property="twitter:title" content="Hell">#EMERGENCY 🏴 | @mohammadaz2
-<meta property="twitter:image" content="https://cdn4.telesco.pe/file/XCxxU3UgryNr_yqjxyExUrx0AbOQ7tWs2ZNf_KXB3VRQOrToTyM0iwgc1pB3oyQABJj-BX1hZDdcB3PPAM8biz4LLkkMH_DZN3ZHdYcnp33W1FwOMT2kdU8Rqgx6JP4dW9WCEoW9i-PrwnLobjAU_yCGt4eD-U9p7A8n7mDZzy9ht2T928CwGH1B8U-O2_PNZ0kkvTyi-8CJBY_YpicT49yaUp9WnZeOrcctwSQpF73CUtuXDgi4eL0gKRBMfGKypRgwpGzV6G6Y6Y6JvNiVkwlnHdcE1mJvG59Y6Ah0DrbDgkFRlxer90aOSX-ziyUCaME8t0C_Xn1J8td1q-sXDA.jpg">#EMERGENCY 🏴 | @mohammadaz2
+<meta property="twitter:image" content="https://cdn4.telesco.pe/file/Er1JP90XiyCHjybvQ49Ne6W-5q6btIuzkziWuoL8gVHJM8w8NbCnN5njZ8DGHOppi6FnHlo2K1g3Q48B0rVA-AQrFmbZRwmwFpOD3_kecfkMB03emqsn5fgTEUZ-KlNfkv7vu2TvqvvyC6BLLHlJFoCzKl3D312ywDZSpuuj3BFMyNJw6pzzAMdYKG469ClwZb50cTuzNBADA7buYRYlGushqFIYmPr3I9zCu1oqQH1DpmQaMLBj0iX9qgqbpkbadsVUC23iFdK2cuWe7FGjpnHKQ_HBd_zTOPTVgD3kplADl0PcdLIBXYQq2kwCvyt_jYBJ9OAs1rcuJmrXJUNwrQ.jpg">#EMERGENCY 🏴 | @mohammadaz2
 <meta property="twitter:site" content="@Telegram">#EMERGENCY 🏴 | @mohammadaz2
 <meta name="twitter:card" content="summary">#EMERGENCY 🏴 | @mohammadaz2
 <meta name="twitter:site" content="@Telegram">#EMERGENCY 🏴 | @mohammadaz2
@@ -63,7 +63,7 @@ vless://93c34033-96f2-444a-8374-f5ff7fddd180@127.0.0.1:443?encryption=none&secur
 </g>#EMERGENCY 🏴 | @mohammadaz2
 </svg>#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
-<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=ffe463fd9f8719c754_9611461365517951520">#EMERGENCY 🏴 | @mohammadaz2
+<a class="tgme_head_right_btn" href="//telegram.org/dl?tme=f32170f638bdb99112_12453086465915855629">#EMERGENCY 🏴 | @mohammadaz2
 Download#EMERGENCY 🏴 | @mohammadaz2
 </a>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
@@ -71,7 +71,7 @@ Download#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_body_wrap">#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_page">#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_page_photo">#EMERGENCY 🏴 | @mohammadaz2
-<a href="tg://join?invite=ZoR2Kg2dwddkMTQ0"><img class="tgme_page_photo_image" src="https://cdn4.telesco.pe/file/XCxxU3UgryNr_yqjxyExUrx0AbOQ7tWs2ZNf_KXB3VRQOrToTyM0iwgc1pB3oyQABJj-BX1hZDdcB3PPAM8biz4LLkkMH_DZN3ZHdYcnp33W1FwOMT2kdU8Rqgx6JP4dW9WCEoW9i-PrwnLobjAU_yCGt4eD-U9p7A8n7mDZzy9ht2T928CwGH1B8U-O2_PNZ0kkvTyi-8CJBY_YpicT49yaUp9WnZeOrcctwSQpF73CUtuXDgi4eL0gKRBMfGKypRgwpGzV6G6Y6Y6JvNiVkwlnHdcE1mJvG59Y6Ah0DrbDgkFRlxer90aOSX-ziyUCaME8t0C_Xn1J8td1q-sXDA.jpg"></a>#EMERGENCY 🏴 | @mohammadaz2
+<a href="tg://join?invite=ZoR2Kg2dwddkMTQ0"><img class="tgme_page_photo_image" src="https://cdn4.telesco.pe/file/Er1JP90XiyCHjybvQ49Ne6W-5q6btIuzkziWuoL8gVHJM8w8NbCnN5njZ8DGHOppi6FnHlo2K1g3Q48B0rVA-AQrFmbZRwmwFpOD3_kecfkMB03emqsn5fgTEUZ-KlNfkv7vu2TvqvvyC6BLLHlJFoCzKl3D312ywDZSpuuj3BFMyNJw6pzzAMdYKG469ClwZb50cTuzNBADA7buYRYlGushqFIYmPr3I9zCu1oqQH1DpmQaMLBj0iX9qgqbpkbadsVUC23iFdK2cuWe7FGjpnHKQ_HBd_zTOPTVgD3kplADl0PcdLIBXYQq2kwCvyt_jYBJ9OAs1rcuJmrXJUNwrQ.jpg"></a>#EMERGENCY 🏴 | @mohammadaz2
 </div>#EMERGENCY 🏴 | @mohammadaz2
 <div class="tgme_page_title" dir="auto">#EMERGENCY 🏴 | @mohammadaz2
 <span dir="auto">Hell</span>#EMERGENCY 🏴 | @mohammadaz2
@@ -137,74 +137,78 @@ toggleTheme(e.matches);#EMERGENCY 🏴 | @mohammadaz2
 </script>#EMERGENCY 🏴 | @mohammadaz2
 </body>#EMERGENCY 🏴 | @mohammadaz2
 </html>#EMERGENCY 🏴 | @mohammadaz2
-<!-- page generated in 29.15ms -->#EMERGENCY 🏴 | @mohammadaz2
-vless://d2f66ace-8e0e-4cd4-bafe-d6a126bcd127@star.fast-uploader.net:6004?security=none&encryption=none&host=cafeariel.ir&headerType=http&fp=firefox&type=tcp#Config | 1 / 70
-vless://8aec2d92-0e14-adb5-d004-072ee9955f35@titan.socialxxmedia.pro:1937?security=none&encryption=none&host=fast.com&headerType=http&type=tcp&sni=titan.socialxxmedia.pro#Config | 2 / 70
-vless://0e3aad48-b46c-4899-9026-5913f222a3d0@myrt7rt8e5w5gfdfEerh8.maral-pc.site:442?security=none&encryption=none&host=91.245.229.1&headerType=http&type=tcp#Config | 3 / 70
-vless://4ba9a59a-fd53-4fcd-b206-69ce84abd6f2@verso.legion-bot.site:443?path=%2Fvl%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=verso.legion-bot.site&type=ws&allowInsecure=0&sni=verso.legion-bot.site#Config | 4 / 70
-vless://c71b2a75-cb1d-452f-b85b-8918c76d5f6a@151.101.192.223:80?mode=auto&path=%2FTignaliSWithYou&security=none&encryption=none&type=xhttp#Config | 5 / 70
-vless://06e27e58-997a-499e-9a19-71d4980aaabf@snapp.ir:8080?path=%2F&security=none&encryption=none&host=download2erfan.sudoserver.ir&type=ws#Config | 6 / 70
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@57.128.176.82:8443?path=%2F%3Fed&security=tls&encryption=none&insecure=1&host=sni.111000.indevs.in&fp=chrome&type=ws&allowInsecure=1&sni=sni.111000.indevs.in#Config | 7 / 70
-vless://e388fffb-03b0-4227-ac2c-2b5cec1f5c34@198.41.222.191:80?security=none&encryption=none&host=leecher56.matinheydri.workers.dev&type=ws#Config | 8 / 70
-trojan://telegram-id-privatevpns@51.45.56.96:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 9 / 70
-vless://c3319fd7-627b-4ac2-a883-0bee53d15757@snapp.ir:80?path=%2F&security=none&encryption=none&host=arc.liarashop.ir&type=ws#Config | 10 / 70
-vless://c387b0f2-5d9e-4c95-882d-1d5eeb443ce2@varzesh3.com:443?path=%2Fmovie&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=nginx-3b1e7ed824-abol.apps.ir-central1.arvancaas.ir&fp=chrome&type=ws&allowInsecure=0&sni=nginx-3b1e7ed824-abol.apps.ir-central1.arvancaas.ir#Config | 11 / 70
-vless://d8803a2b-3a68-4b4e-9763-87d4bf4e1d13@tob1-c8040d1d55-edare.apps.ir-central1.arvancaas.ir:80?path=%2F&security=&encryption=none&host=tob1-c8040d1d55-edare.apps.ir-central1.arvancaas.ir&type=ws#Config | 12 / 70
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@35.157.169.92:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 13 / 70
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@178.62.25.163:443?path=/?ed&security=tls&encryption=none&insecure=0&host=sni.111000.indevs.in&type=ws&allowInsecure=0&sni=sni.111000.indevs.in#Config | 14 / 70
-vless://8c53daee-2173-4889-a483-4f698b4b0432@tangerine-5545db500b-kamdaug.apps.ir-central1.arvancaas.ir:443?path=%2Fvless&security=tls&encryption=none&insecure=1&host=tangerine-5545db500b-kamdaug.apps.ir-central1.arvancaas.ir&type=ws&allowInsecure=1&sni=tangerine-5545db500b-kamdaug.apps.ir-central1.arvancaas.ir#Config | 15 / 70
-vless://aca8bc97-2e78-4933-8bc8-ada7cd5a5f20@94.182.92.94:10552?security=none&encryption=none&headerType=none&type=tcp#Config | 16 / 70
-trojan://telegram-id-directvpn@35.157.169.92:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 17 / 70
-trojan://telegram-id-privatevpns@35.157.169.92:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 18 / 70
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.115:8880?encryption=none&security=none&type=grpc#Config | 19 / 70
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?encryption=none&security=none&type=grpc#Config | 20 / 70
-vless://a384c715-aeb5-45e8-859b-f687ca6c083f@5.180.97.139:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=google.com&fp=chrome&pbk=wBrGfTI9PaFf966aN6KaCY0cL6QRLlop4nzNa6bJsiQ&sid=9f35da6c9412b832&type=tcp&headerType=none#Config | 21 / 70
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?encryption=none&security=none&type=ws&path=%2Fhttp#Config | 22 / 70
-vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?encryption=none&flow=xtls-rprx-vision&security=reality&sni=aws.amazon.com&fp=chrome&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&type=tcp&headerType=none#Config | 23 / 70
-vless://1c7fcc38-e6be-43c5-875f-b8de2516b9f2@5.182.38.91:17267?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk&sid=4ae260&type=tcp&headerType=none#Config | 24 / 70
-vless://53cd8178-2ee6-43d9-a2a7-881f287fd408@172.234.130.82:10001?encryption=none&security=reality&sni=yahoo.com&fp=firefox&pbk=kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM&sid=1a24af87&type=tcp&headerType=none#Config | 25 / 70
-vless://859b7d71-a9fc-4234-8e03-42eb876a170a@151.115.96.243:7242?encryption=none&flow=xtls-rprx-vision&security=reality&sni=modily.net&fp=chrome&pbk=jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM&sid=8c01e365&type=tcp&headerType=none#Config | 26 / 70
-vless://a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9@212.34.142.191:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=tradingview.com&fp=chrome&pbk=wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY&sid=f7aa9e61197d3ac6&type=tcp&headerType=none#Config | 27 / 70
-vless://c9fd0fb1-8251-4106-b09a-f4b426736f67@137.184.218.169:36925?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0&type=tcp&headerType=none#Config | 28 / 70
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.39.166.165:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 29 / 70
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@78.158.166.180:2096?path=%2F%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=sni.jpmj.dev&fp=chrome&type=ws&allowInsecure=0&sni=sni.jpmj.dev#Config | 30 / 70
-vless://704afb80-1dfd-4cb8-8016-583e98197d8d@185.143.233.235:80?type=ws&host=vixon.portab.org#Config | 31 / 70
-vless://8aa38654-fd39-497a-b28f-04589b60d9b0@ww.boldtest.ir:8880?path=%2F&security=none&encryption=none&type=ws#Config | 32 / 70
-vless://be5b165b-0ffe-44b9-9ae9-201b75b068e1@link2x07250.temp.veraspeed.ir:80?path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&security=none&encryption=none=-@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann&host=byebye.22.avenflow.ir&type=ws#Config | 33 / 70
-vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@57.129.53.181:23576?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fuck.rkn&fp=chrome&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01&type=tcp&headerType=none#Config | 34 / 70
-trojan://telegram-id-directvpn@13.39.166.165:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 35 / 70
-trojan://telegram-id-privatevpns@13.39.166.165:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 36 / 70
-trojan://humanity@104.21.40.34:443?security=tls&sni=www.gossipglove.com&type=ws&host=www.gossipglove.com&path=%2Fassignment#Config | 37 / 70
-trojan://humanity@www.gossipglove.com:443?security=tls&sni=www.gossipglove.com&fp=chrome&type=ws&path=%2Fassignment#Config | 38 / 70
-vless://1051f8ae-ea0d-413c-9cda-df4757e5f5a4@185.143.233.5:443?path=%2F%3Fed%3D443&security=tls&encryption=none&insecure=0&host=alef.ir.oadeflantrogm.mapircdn.com&fp=randomized&type=ws&allowInsecure=0&sni=alef.ir.oadeflantrogm.mapircdn.com#Config | 39 / 70
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@162.19.228.119:80?encryption=none&security=none&type=ws&path=%2Fhttp#Config | 40 / 70
-vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@57.129.53.182:23576?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fuck.rkn&fp=chrome&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01&type=tcp&headerType=none#Config | 41 / 70
-trojan://humanity@104.18.32.47:443?security=tls&sni=www.multiplydose.com&type=ws&host=www.multiplydose.com&path=%2Fassignment#Config | 42 / 70
-trojan://humanity@172.64.152.23:443?security=tls&sni=www.calmlunch.com&type=ws&host=www.calmlunch.com&path=%2Fassignment#Config | 43 / 70
-trojan://humanity@172.67.180.92:443?security=tls&sni=www.multiplydose.com&type=ws&host=www.multiplydose.com&path=%2Fassignment#Config | 44 / 70
-vless://e861a577-7562-44e1-99bd-cc52b935a112@vip4-nightgemshop.sap-tanbol.ir:8080?path=%2F&security=&encryption=none&host=vip4-nightgemshop.sap-tanbol.ir&type=ws#Config | 45 / 70
-vless://e911c552-3a98-41e0-b5fb-0dd3879887b7@78.158.166.180:2096?path=%2Fapi%2Fv1%2Firc&security=tls&alpn=h2&encryption=none&insecure=0&host=vod.ensf.top&type=ws&allowInsecure=0&sni=vod.ensf.top#Config | 46 / 70
-vless://3ef7131a-224f-4f28-9b9b-3517b75f28b3@vip.gxnetshop.ir:6000?security=none&encryption=none&headerType=none&type=tcp#Config | 47 / 70
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@18.156.124.169:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 48 / 70
-vless://06e27e58-997a-499e-9a19-71d4980aaabf@snapp.ir:8080?path=%2F&security=&encryption=none&host=download2erfan.sudoserver.ir&type=ws#Config | 49 / 70
-trojan://telegram-id-privatevpns@18.156.124.169:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 50 / 70
-trojan://telegram-id-directvpn@18.156.124.169:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 51 / 70
-trojan://humanity@188.114.98.0:443?security=tls&sni=www.creationlong.org&type=ws&host=www.creationlong.org&path=%2Fassignment#Config | 52 / 70
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@52.47.115.113:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 53 / 70
-vless://0d96abbd-df86-495b-bc1b-8174cb913f95@185.143.234.235:80?path=%2F&security=none&encryption=none&host=dl.bale.lovlytehran.ir&type=ws#Config | 54 / 70
-vless://0e2a6061-ee47-4a3c-a005-4d5680abb70f@185.143.234.122:80?path=%2F&security=none&encryption=none&host=S2.koremusic.ir&type=ws#Config | 55 / 70
-vless://53a9fc69-20e2-4c11-9ca5-5bb2f15de363@bayernfan.lyragrid.ir:56948?security=none&encryption=none&headerType=none&type=tcp#Config | 56 / 70
-vless://6f8277a2-826a-4262-b818-c88a728d7b54@de1.teenogame.space:26604?security=none&encryption=none&headerType=none&type=tcp#Config | 57 / 70
-vless://b0220369-51bf-45fb-962f-b302634b69d4@snapp.ir:80?path=%2F&security=none&encryption=none&host=arc.liarashop.ir&type=ws#Config | 58 / 70
-vless://c1a4f546-3612-40e7-b907-a64071485cde@de23.fastplus7.site:2095?path=%2F&security=&encryption=none&host=de23.fastplus11.ir&type=ws#Config | 59 / 70
-trojan://telegram-id-directvpn@52.47.115.113:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 60 / 70
-trojan://telegram-id-privatevpns@52.47.115.113:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 61 / 70
-vless://b1ac23fb-b336-4d37-a3c0-64b29c4ef3a4@s2.tehranionliine.ir:80?path=%2F&security=none&encryption=none&type=ws#Config | 62 / 70
-vless://4833fdb7-24e6-4856-b913-38f74280e72d@final.digitalldns.com:8443?security=none&allowInsecure=0&encryption=none&type=tcp&headerType=none#Config | 63 / 70
-vless://fa43d1f8-0b2d-41ae-8b41-4d9601bd5ced@151.101.64.223:80?type=xhttp&encryption=none&path=%2Fsorry%2Fsorryfor&host=asenagame.com&mode=auto&security=none#Config | 64 / 70
-vless://19773cc6-89a3-47c6-bc10-885460cd2b7b@89.167.17.75:443?security=none&encryption=none&host=speedtest.net&headerType=http&type=#Config | 65 / 70
-vless://43bdc922-f857-43e5-83ba-7410af321c9b@194.59.215.131:571?security=none&type=tcp&headerType=&path=&host=#Config | 66 / 70
-vless://f1350503-c2ae-4ae5-bac6-079a8c01dbce@37.152.189.74:4431?security=none&allowInsecure=0&encryption=none&type=ws&host=live-azd1102.telewebion.ir&path=/ek/irinn/live/1080p/#Config | 67 / 70
-vless://a294acfc-a7b8-4358-bd20-48a88384a35e@trsite-f8b2f34ea8-niod.apps.ir-central1.arvancaas.ir:80?path=%2Fyaay&security=none&encryption=none&host=trsite-f8b2f34ea8-niod.apps.ir-central1.arvancaas.ir&type=ws#Config | 68 / 70
-vmess://eyJhZGQiOiJQaG9uLmFtbGFrYXl1bmkuaXIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiZjAxMDliMjgtNDA2Ny00NDc3LWFkYWEtNWI2OWMwOGYyZGJlIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1OTIyIiwicHMiOiJA8J2XpvCdl7jwnZiG8J2XvfCdl7zwnZe/8J2YgfCdl67wnZe58J2XuSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=#Config | 69 / 70
-vless://76367984-4668-4d94-9f10-fafd240d6f6a@final.usdtbama.com:8443?security=none&encryption=none&headerType=none&type=tcp#Config | 70 / 70
+<!-- page generated in 14.76ms -->#EMERGENCY 🏴 | @mohammadaz2
+vless://bf5e8fce-29c8-4e21-891f-29200235e61a@mail.pastelluna.ir:13?encryption=none&type=xhttp&mode=stream-one&path=/&security=reality&fp=chrome&sni=aparat.com&pbk=bWvT77oE55ycFnzyQViVorwvD5w5bgL38w8bls-_LUc&sid=60&spx=/6mkXDptcNNyMojZ#Config | 1 / 74
+vless://07dbfb46-83f0-4801-a223-58c4bc266fd2@37.152.189.74:4431?path=%2Fek%2Firinn%2Flive%2F1080p%2F&security=none&encryption=none&host=live-azd1102.telewebion.ir&type=ws#Config | 2 / 74
+vless://fa43d1f8-0b2d-41ae-8b41-4d9601bd5ced@151.101.64.223:80?security=none&allowInsecure=0&encryption=none&type=xhttp&path=/sorry/sorryfor&mode=auto#Config | 3 / 74
+vless://3e759886-10b8-44d7-985e-a8c55f8c017d@im2.newdesigne.ir:80?path=%2F&security=none&encryption=none&type=ws#Config | 4 / 74
+vless://b1c861e7-4ef6-4389-97e9-2f1622e57c6a@snapp.ir:443?path=%2Flogin%2Fget%2F3929429349.rar%2Ffortnite&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=database-cbv.persianstorebnd.ir&fp=firefox&type=ws&allowInsecure=0&sni=database-cbv.persianstorebnd.ir#Config | 5 / 74
+vless://0c90175d-41df-4a62-c663-67b8652371c4@www.speedtest.net:2096?path=%2F%40LOCKEY_VPN--%40LOCKEY_VPN--%40LOCKEY_VPN--%40LOCKEY_VPN--%40LOCKEY_VPN--%40LOCKEY_VPN--%40LOCKEY_VPN--%40LOCKEY_VPN--%40LOCKEY_VPN&security=tls&alpn=http%2F1.1&encryption=none&host=Locke.check-speedtest-internet-dns-ping-ip.ir&fp=chrome&type=ws&sni=Locke.check-speedtest-internet-dns-ping-ip.ir#Config | 6 / 74
+vless://f88fc142-cd33-47bc-a2cb-bf657a9922b4@final.digitalldns.com:8443?security=none&encryption=none&headerType=none&type=tcp#Config | 7 / 74
+vless://4833fdb7-24e6-4856-b913-38f74280e72d@final.digitalldns.com:8443?security=none&allowInsecure=0&encryption=none&type=tcp&headerType=none#Config | 8 / 74
+vless://b1ac23fb-b336-4d37-a3c0-64b29c4ef3a4@s2.tehranionliine.ir:80?security=none&allowInsecure=0&encryption=none&type=ws&path=/#Config | 9 / 74
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@78.158.166.180:2096?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=sni.jpmj.dev&fp=chrome&type=ws&sni=sni.jpmj.dev#Config | 10 / 74
+vless://19773cc6-89a3-47c6-bc10-885460cd2b7b@89.167.17.75:443?security=none&encryption=none&host=speedtest.net&headerType=http&type=#Config | 11 / 74
+vless://be5b165b-0ffe-44b9-9ae9-201b75b068e1@link2x07250.temp.veraspeed.ir:80?path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&security=none&encryption=none&host=byebye.22.avenflow.ir&type=ws#Config | 12 / 74
+vless://43bdc922-f857-43e5-83ba-7410af321c9b@194.59.215.131:571?security=none&type=tcp&headerType=&path=&host=#Config | 13 / 74
+vless://f1350503-c2ae-4ae5-bac6-079a8c01dbce@37.152.189.74:4431?security=none&allowInsecure=0&encryption=none&type=ws&host=live-azd1102.telewebion.ir&path=/ek/irinn/live/1080p/#Config | 14 / 74
+vless://8c53daee-2173-4889-a483-4f698b4b0432@tangerine-5545db500b-kamdaug.apps.ir-central1.arvancaas.ir:443?path=%2Fvless&security=tls&encryption=none&insecure=1&host=tangerine-5545db500b-kamdaug.apps.ir-central1.arvancaas.ir&type=ws&allowInsecure=1&sni=tangerine-5545db500b-kamdaug.apps.ir-central1.arvancaas.ir#Config | 15 / 74
+vless://a294acfc-a7b8-4358-bd20-48a88384a35e@trsite-f8b2f34ea8-niod.apps.ir-central1.arvancaas.ir:80?path=%2Fyaay&security=none&encryption=none&host=trsite-f8b2f34ea8-niod.apps.ir-central1.arvancaas.ir&type=ws#Config | 16 / 74
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@57.128.176.82:8443?path=%2F%3Fed&security=tls&encryption=none&insecure=1&host=sni.111000.indevs.in&fp=chrome&type=ws&allowInsecure=1&sni=sni.111000.indevs.in#Config | 17 / 74
+vless://0e3aad48-b46c-4899-9026-5913f222a3d0@myrt7rt8e5w5gfdfEerh8.maral-pc.site:442?security=none&encryption=none&host=91.245.229.1&headerType=http&type=tcp#Config | 18 / 74
+vless://4ba9a59a-fd53-4fcd-b206-69ce84abd6f2@verso.legion-bot.site:443?path=%2Fvl%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=verso.legion-bot.site&type=ws&allowInsecure=0&sni=verso.legion-bot.site#Config | 19 / 74
+vless://8aec2d92-0e14-adb5-d004-072ee9955f35@titan.socialxxmedia.pro:1937?security=none&encryption=none&host=fast.com&headerType=http&type=tcp&sni=titan.socialxxmedia.pro#Config | 20 / 74
+vless://c71b2a75-cb1d-452f-b85b-8918c76d5f6a@151.101.192.223:80?encryption=none&type=xhttp&mode=auto&path=/TignaliSWithYou&security=none#Config | 21 / 74
+vless://d2f66ace-8e0e-4cd4-bafe-d6a126bcd127@star.fast-uploader.net:6004?security=none&encryption=none&host=cafeariel.ir&headerType=http&fp=firefox&type=tcp#Config | 22 / 74
+vless://e388fffb-03b0-4227-ac2c-2b5cec1f5c34@198.41.222.191:80?security=none&encryption=none&host=leecher56.matinheydri.workers.dev&type=ws#Config | 23 / 74
+trojan://telegram-id-privatevpns@51.45.56.96:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 24 / 74
+vless://c3319fd7-627b-4ac2-a883-0bee53d15757@snapp.ir:80?path=%2F&security=none&encryption=none&host=arc.liarashop.ir&type=ws#Config | 25 / 74
+vless://c387b0f2-5d9e-4c95-882d-1d5eeb443ce2@varzesh3.com:443?path=%2Fmovie&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=nginx-3b1e7ed824-abol.apps.ir-central1.arvancaas.ir&fp=chrome&type=ws&allowInsecure=0&sni=nginx-3b1e7ed824-abol.apps.ir-central1.arvancaas.ir#Config | 26 / 74
+vless://d8803a2b-3a68-4b4e-9763-87d4bf4e1d13@tob1-c8040d1d55-edare.apps.ir-central1.arvancaas.ir:80?path=%2F&security=&encryption=none&host=tob1-c8040d1d55-edare.apps.ir-central1.arvancaas.ir&type=ws#Config | 27 / 74
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@35.157.169.92:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 28 / 74
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@178.62.25.163:443?path=/?ed&security=tls&encryption=none&insecure=0&host=sni.111000.indevs.in&type=ws&allowInsecure=0&sni=sni.111000.indevs.in#Config | 29 / 74
+vless://aca8bc97-2e78-4933-8bc8-ada7cd5a5f20@94.182.92.94:10552?security=none&encryption=none&headerType=none&type=tcp#Config | 30 / 74
+trojan://telegram-id-directvpn@35.157.169.92:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 31 / 74
+trojan://telegram-id-privatevpns@35.157.169.92:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 32 / 74
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.115:8880?encryption=none&security=none&type=grpc#Config | 33 / 74
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?encryption=none&security=none&type=grpc#Config | 34 / 74
+vless://a384c715-aeb5-45e8-859b-f687ca6c083f@5.180.97.139:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=google.com&fp=chrome&pbk=wBrGfTI9PaFf966aN6KaCY0cL6QRLlop4nzNa6bJsiQ&sid=9f35da6c9412b832&type=tcp&headerType=none#Config | 35 / 74
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?encryption=none&security=none&type=ws&path=%2Fhttp#Config | 36 / 74
+vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?encryption=none&flow=xtls-rprx-vision&security=reality&sni=aws.amazon.com&fp=chrome&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&type=tcp&headerType=none#Config | 37 / 74
+vless://1c7fcc38-e6be-43c5-875f-b8de2516b9f2@5.182.38.91:17267?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk&sid=4ae260&type=tcp&headerType=none#Config | 38 / 74
+vless://53cd8178-2ee6-43d9-a2a7-881f287fd408@172.234.130.82:10001?encryption=none&security=reality&sni=yahoo.com&fp=firefox&pbk=kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM&sid=1a24af87&type=tcp&headerType=none#Config | 39 / 74
+vless://859b7d71-a9fc-4234-8e03-42eb876a170a@151.115.96.243:7242?encryption=none&flow=xtls-rprx-vision&security=reality&sni=modily.net&fp=chrome&pbk=jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM&sid=8c01e365&type=tcp&headerType=none#Config | 40 / 74
+vless://a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9@212.34.142.191:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=tradingview.com&fp=chrome&pbk=wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY&sid=f7aa9e61197d3ac6&type=tcp&headerType=none#Config | 41 / 74
+vless://c9fd0fb1-8251-4106-b09a-f4b426736f67@137.184.218.169:36925?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0&type=tcp&headerType=none#Config | 42 / 74
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.39.166.165:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 43 / 74
+vless://704afb80-1dfd-4cb8-8016-583e98197d8d@185.143.233.235:80?type=ws&host=vixon.portab.org#Config | 44 / 74
+vless://8aa38654-fd39-497a-b28f-04589b60d9b0@ww.boldtest.ir:8880?path=%2F&security=none&encryption=none&type=ws#Config | 45 / 74
+vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@57.129.53.181:23576?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fuck.rkn&fp=chrome&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01&type=tcp&headerType=none#Config | 46 / 74
+trojan://telegram-id-directvpn@13.39.166.165:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 47 / 74
+trojan://telegram-id-privatevpns@13.39.166.165:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 48 / 74
+trojan://humanity@104.21.40.34:443?security=tls&sni=www.gossipglove.com&type=ws&host=www.gossipglove.com&path=%2Fassignment#Config | 49 / 74
+trojan://humanity@www.gossipglove.com:443?security=tls&sni=www.gossipglove.com&fp=chrome&type=ws&path=%2Fassignment#Config | 50 / 74
+vless://06e27e58-997a-499e-9a19-71d4980aaabf@snapp.ir:8080?path=%2F&security=none&encryption=none&host=download2erfan.sudoserver.ir&type=ws#Config | 51 / 74
+vless://1051f8ae-ea0d-413c-9cda-df4757e5f5a4@185.143.233.5:443?path=%2F%3Fed%3D443&security=tls&encryption=none&insecure=0&host=alef.ir.oadeflantrogm.mapircdn.com&fp=randomized&type=ws&allowInsecure=0&sni=alef.ir.oadeflantrogm.mapircdn.com#Config | 52 / 74
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@162.19.228.119:80?encryption=none&security=none&type=ws&path=%2Fhttp#Config | 53 / 74
+vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@57.129.53.182:23576?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fuck.rkn&fp=chrome&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01&type=tcp&headerType=none#Config | 54 / 74
+trojan://humanity@104.18.32.47:443?security=tls&sni=www.multiplydose.com&type=ws&host=www.multiplydose.com&path=%2Fassignment#Config | 55 / 74
+trojan://humanity@172.64.152.23:443?security=tls&sni=www.calmlunch.com&type=ws&host=www.calmlunch.com&path=%2Fassignment#Config | 56 / 74
+trojan://humanity@172.67.180.92:443?security=tls&sni=www.multiplydose.com&type=ws&host=www.multiplydose.com&path=%2Fassignment#Config | 57 / 74
+vless://e861a577-7562-44e1-99bd-cc52b935a112@vip4-nightgemshop.sap-tanbol.ir:8080?path=%2F&security=&encryption=none&host=vip4-nightgemshop.sap-tanbol.ir&type=ws#Config | 58 / 74
+vless://e911c552-3a98-41e0-b5fb-0dd3879887b7@78.158.166.180:2096?path=%2Fapi%2Fv1%2Firc&security=tls&alpn=h2&encryption=none&insecure=0&host=vod.ensf.top&type=ws&allowInsecure=0&sni=vod.ensf.top#Config | 59 / 74
+vless://3ef7131a-224f-4f28-9b9b-3517b75f28b3@vip.gxnetshop.ir:6000?security=none&encryption=none&headerType=none&type=tcp#Config | 60 / 74
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@18.156.124.169:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 61 / 74
+vless://06e27e58-997a-499e-9a19-71d4980aaabf@snapp.ir:8080?path=%2F&security=&encryption=none&host=download2erfan.sudoserver.ir&type=ws#Config | 62 / 74
+trojan://telegram-id-privatevpns@18.156.124.169:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 63 / 74
+trojan://telegram-id-directvpn@18.156.124.169:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 64 / 74
+trojan://humanity@188.114.98.0:443?security=tls&sni=www.creationlong.org&type=ws&host=www.creationlong.org&path=%2Fassignment#Config | 65 / 74
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@52.47.115.113:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Config | 66 / 74
+vless://0d96abbd-df86-495b-bc1b-8174cb913f95@185.143.234.235:80?path=%2F&security=none&encryption=none&host=dl.bale.lovlytehran.ir&type=ws#Config | 67 / 74
+vless://0e2a6061-ee47-4a3c-a005-4d5680abb70f@185.143.234.122:80?path=%2F&security=none&encryption=none&host=S2.koremusic.ir&type=ws#Config | 68 / 74
+vless://53a9fc69-20e2-4c11-9ca5-5bb2f15de363@bayernfan.lyragrid.ir:56948?security=none&encryption=none&headerType=none&type=tcp#Config | 69 / 74
+vless://6f8277a2-826a-4262-b818-c88a728d7b54@de1.teenogame.space:26604?security=none&encryption=none&headerType=none&type=tcp#Config | 70 / 74
+vless://b0220369-51bf-45fb-962f-b302634b69d4@snapp.ir:80?path=%2F&security=none&encryption=none&host=arc.liarashop.ir&type=ws#Config | 71 / 74
+vless://c1a4f546-3612-40e7-b907-a64071485cde@de23.fastplus7.site:2095?path=%2F&security=&encryption=none&host=de23.fastplus11.ir&type=ws#Config | 72 / 74
+trojan://telegram-id-directvpn@52.47.115.113:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 73 / 74
+trojan://telegram-id-privatevpns@52.47.115.113:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Config | 74 / 74
